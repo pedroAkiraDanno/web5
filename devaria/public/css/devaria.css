@@ -1,1 +1,15 @@
 /*estilos globais do site*/
+
+html{
+    height: 100; /* px default*/
+}
+
+
+
+body{
+    background-color: #1c0c3f;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+

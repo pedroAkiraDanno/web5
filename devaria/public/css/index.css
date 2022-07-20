@@ -1,1 +1,9 @@
 /* Estilos na pagina index*/
+
+
+
+.cover-container figure img{
+    width: 100%; /*em respeita o tamanho da fonte padrao do elemento*/
+}
+
+
