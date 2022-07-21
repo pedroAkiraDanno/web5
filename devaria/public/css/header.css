@@ -1,1 +1,31 @@
-/* Estilos na pagina index*/
+/* Estilos na pagina header*/
+
+
+header .link-logo{
+    display: block;
+    padding: 20px 25px;
+    border-bottom: 1px solid #25cbd3;
+
+}
+
+header nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+
+header nav ul li{
+    display: inline-block;
+}
+
+
+header nav ul li:not(:last-child){
+    margin-right: 15px;
+}
+
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+
+}
