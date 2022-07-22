@@ -36,3 +36,10 @@ h1.tittle{
     text-align: center;
 }
 
+
+@media screen (min-width: 992px){ /*desktop*/
+    .width-50pct-desktop{
+        width: 50%
+    }
+}
+
