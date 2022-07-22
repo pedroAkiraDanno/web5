@@ -2,8 +2,21 @@
 
 
 
+main{
+    text-align: center;
+}
+
+
 .cover-container figure img{
     width: 100%; /*em respeita o tamanho da fonte padrao do elemento*/
 }
 
 
+main h3.tittle {
+    font-size: 1.2em;
+
+}
+
+main section abbr{
+    color: #25cbd3;
+}

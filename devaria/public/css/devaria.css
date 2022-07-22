@@ -1,7 +1,7 @@
 /*estilos globais do site*/
 
 html{
-    height: 100; /* px default*/
+    height: 100%; /* px default*/
 }
 
 
@@ -14,3 +14,19 @@ body{
 }
 
 
+.tittle {
+    padding: 0 20px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+
+h1.tittle{
+    margin: 40px auto 20px;
+}
+
+
+.text-justify{
+    text-align: justify;
+    
+}
