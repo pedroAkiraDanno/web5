@@ -19,8 +19,8 @@
 
 
 @media screen and (min-width: 992px){
-    .content-container > div  img{
-        width: 50%;
+    .content-container article p{
+        margin: 0 auto 10px;
     }
 }
 
