@@ -50,9 +50,60 @@ main .contat-form > div:nth-child(4) span{
 }
 
 
-main .contat-form > div input[type="radio"],
-main .contat-form > div input[type="checkbox"] {
-    width: 25px;
+main .contat-form > div input[type="submit"],
+main .contat-form > div input[type="reset"] {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 1.1em;
 }
+
+main .contat-form > div input[type="submit"]{
+    background-color: #2bd42d;
+    padding: 10px;
+    font-weight: bold;
+}
+
+main .contat-form > div input[type="reset"]{
+    background-color: #5e49ff;
+}
+
+@media screen and (min-width: 992px){ 
+    main .contat-form{
+        width: 60% ;
+        border: 1px solid #25cbd3;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 20px auto;
+    }
+    
+    main .contat-form input,
+    main .contat-form textarea{
+        width: 95%;
+        padding: 5px 15px;
+        outline-color: #3bd42d;
+    }
+
+    main .contat-form select{
+        width: 40%;
+    }
+    
+    main .contat-form > div input[type="submit"],
+    main .contat-form > div input[type="reset"] {
+        width: auto;
+        padding: 10px;
+        outline: none;
+    }
+
+    main .contat-form > div input[type="submit"]{
+        margin-right: 20px;
+    }
+
+
+}
+
+
 
 
