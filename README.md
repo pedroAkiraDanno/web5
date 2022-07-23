@@ -17,7 +17,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 ## Explain each project (completed)
 
-**devaria** -> Is a project about copy of site [devaria_website](devaria.com.br) 
+    **devaria** -> Is a project about copy of site [devaria_website](devaria.com.br) 
 
 
 <br/>
@@ -47,9 +47,12 @@ Cascading Style Sheets is a style sheet language used for describing the present
 ---
 ## Imporant links and sites to study 
 
-    [w3schools](https://www.w3schools.com/html/) Explain: ---
-    [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML) Explain: about good web pratices 
-    [html](https://html.com/) Explain: ---
+<a href="https://www.w3schools.com/html/" target="_blank">w3schools</a>  Explain: ---
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">developer.mozilla</a>  Explain: about good web pratices 
+
+<a href="https://html.com/" target="_blank">html</a>  Explain: ---
+
 
 
 
