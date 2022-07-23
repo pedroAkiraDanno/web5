@@ -49,6 +49,8 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
     [w3schools](https://www.w3schools.com/html/) Explain: ---
     [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML) Explain: about good web pratices 
+    [html](https://html.com/) Explain: ---
+
 
 
 ---
