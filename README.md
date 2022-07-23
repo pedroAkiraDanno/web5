@@ -17,7 +17,8 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 ## Explain each project (completed)
 
-    **devaria** -> Is a project about copy of site [devaria_website](devaria.com.br) 
+    **devaria**             -> Is a project about copy of site [devaria_website](devaria.com.br) 
+    **one-page-project**    -> project about profile example [one-page-project](https://www.youtube.com/watch?v=ZFQkb26UD1Y&t=785s)
 
 
 <br/>
@@ -26,7 +27,10 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 ## Acess each project with browser (completed)
 
-**devaria** -> [devaria](https://pedroakiradanno.github.io/web5/devaria/index.html)
+**devaria**             -> [devaria](https://pedroakiradanno.github.io/web5/devaria/index.html)
+**one-page-project**    -> [one-page-project](https://pedroakiradanno.github.io/web5/one-page-project/index.html)
+
+
 
 <br/>
 
