@@ -1,0 +1,58 @@
+/* Estilos na pagina FaleConosco*/
+
+
+.sub-title{
+    margin: 0 20px;
+}
+
+
+main .contat-form > div{
+    margin: 15px 0px;
+}
+
+
+main .contat-form > div label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+main .contat-form input,
+main .contat-form select,
+main .contat-form textarea{
+    width: 90%;
+    padding: 5px 15px;
+    outline-color: #3bd42d;
+}
+
+
+
+main .contat-form select {
+    width: 100%;
+}
+
+
+main .contat-form textarea {
+    resize: none;
+    padding-top: 15px;
+}
+
+
+main .contat-form > div input[type="radio"],
+main .contat-form > div input[type="checkbox"] {
+    width: 25px;
+}
+
+
+
+main .contat-form > div:nth-child(4) span{
+    color: #25cbd3;
+}
+
+
+main .contat-form > div input[type="radio"],
+main .contat-form > div input[type="checkbox"] {
+    width: 25px;
+}
+
+

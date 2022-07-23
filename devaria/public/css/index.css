@@ -29,7 +29,7 @@ main section abbr{
 
     }
 
-    .cover-container 
+    .cover-container, 
     .section-video {
         display:  inline-block;
     }
