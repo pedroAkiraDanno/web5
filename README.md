@@ -1,15 +1,19 @@
 # web5
 repo about html, css etc...
 
-HTML
 
+
+**HTML**
 The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
 
-CSS
 
+**CSS**
 Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
 <br/>
+
+---
+
 
 ## Explain each project (completed)
 
@@ -18,12 +22,15 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 <br/>
 
+---
+
 ## Acess each project with browser (completed)
 
 **devaria** -> [devaria](https://pedroakiradanno.github.io/web5/devaria/index.html)
 
 <br/>
 
+---
 
 
 ## About versions (for more infos check [CHANGELOG.md](https://github.com/pedroAkiraDanno/auto5/blob/main/CHANGELOG.md))
