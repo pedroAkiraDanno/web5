@@ -2,23 +2,27 @@
 repo about html, css etc...
 
 HTML
+
 The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
 
 CSS
+
 Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-
+<br/>
 
 ## Explain each project (completed)
 
-***devaria*** -> is a project about copy of site devaria.com.br 
+**devaria** -> Is a project about copy of site [devaria_website](devaria.com.br) 
 
+
+<br/>
 
 ## Acess each project with browser (completed)
 
-***devaria*** -> [devaria](https://pedroakiradanno.github.io/web5/devaria/index.html)
+**devaria** -> [devaria](https://pedroakiradanno.github.io/web5/devaria/index.html)
 
-
+<br/>
 
 
 
@@ -30,7 +34,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
     v0.1.0 -         dont recomend to use, is forks about old project - have a lot problemas and bugs to fix 
 
 
-
+<br/>
 
 
 ---
