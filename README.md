@@ -28,8 +28,10 @@ Cascading Style Sheets is a style sheet language used for describing the present
 ## Acess each project with browser (completed)
 
 **devaria**                   -> [devaria](https://pedroakiradanno.github.io/web5/devaria/index.html)
+
 **one-page-project**          -> [one-page-project](https://pedroakiradanno.github.io/web5/one-page-project/index.html)
-**Forms_Ballerini**           -> [one-page-project](https://pedroakiradanno.github.io/web5/Forms_Ballerini/formulario.html)
+
+**Forms_Ballerini**           -> [formulario](https://pedroakiradanno.github.io/web5/Forms_Ballerini/formulario.html)
 
 
 <br/>
