@@ -31,7 +31,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **Forms_Kich** -> [Forms_Kich](https://pedroakiradanno.github.io/web5/Forms_Kich/pro/index.html)
 
-**02-HTML-Fundamentals** ->[Fundamentals](https://pedroakiradanno.github.io/web5/02-HTML-Fundamentals/index.html)
+**02-HTML-Fundamentals** ->[Fundamentals2](https://pedroakiradanno.github.io/web5/02-HTML-Fundamentals/index.html)
 
 <br/>
 
