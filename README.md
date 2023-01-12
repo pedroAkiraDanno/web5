@@ -43,7 +43,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 02  | [one-page-project](https://github.com/pedroAkiraDanno/web5/tree/main/one-page-project)                       | [Live Demo](https://pedroakiradanno.github.io/web5/one-page-project/index.html) |
 | 03  | [Forms_Ballerini](https://github.com/pedroAkiraDanno/web5/tree/main/Forms_Ballerini)                       | [Live Demo](https://pedroakiradanno.github.io/web5/Forms_Ballerini/formulario.html) |
 | 04  | [Forms_Kich](https://github.com/pedroAkiraDanno/web5/tree/main/Forms_Kich)                          | [Live Demo](https://pedroakiradanno.github.io/web5/Forms_Kich/pro/index.html)          |
-| 05  | [Fundamentals2](https://pedroakiradanno.github.io/web5/02-HTML-Fundamentals/index.html)                               | [Live Demo](https://pedroakiradanno.github.io/web5/02-HTML-Fundamentals/index.html)                |
+| 05  | [02-HTML-Fundamentals](https://github.com/pedroAkiraDanno/web5/tree/main/02-HTML-Fundamentals)                               | [Live Demo](https://pedroakiradanno.github.io/web5/02-HTML-Fundamentals/index.html)                |
 
 
 ---
