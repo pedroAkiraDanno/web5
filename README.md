@@ -40,7 +40,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 |  #  | Project                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | 01  | [devaria](https://github.com/pedroAkiraDanno/web5/tree/main/devaria)                             | [Live Demo](https://pedroakiradanno.github.io/web5/devaria/index.html)               |
-| 02  | [one-page-project](https://pedroakiradanno.github.io/web5/one-page-project/index.html)                       | [Live Demo](https://pedroakiradanno.github.io/web5/one-page-project/index.html) |
+| 02  | [one-page-project](https://github.com/pedroAkiraDanno/web5/tree/main/one-page-project)                       | [Live Demo](https://pedroakiradanno.github.io/web5/one-page-project/index.html) |
 | 03  | [Forms_Ballerini](https://pedroakiradanno.github.io/web5/Forms_Ballerini/formulario.html)                       | [Live Demo](https://pedroakiradanno.github.io/web5/Forms_Ballerini/formulario.html) |
 | 04  | [Forms_Kich](https://pedroakiradanno.github.io/web5/Forms_Kich/pro/index.html)                          | [Live Demo](https://pedroakiradanno.github.io/web5/Forms_Kich/pro/index.html)          |
 | 05  | [Fundamentals2](https://pedroakiradanno.github.io/web5/02-HTML-Fundamentals/index.html)                               | [Live Demo](https://pedroakiradanno.github.io/web5/02-HTML-Fundamentals/index.html)                |
