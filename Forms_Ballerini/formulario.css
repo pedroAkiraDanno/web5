@@ -59,6 +59,7 @@ input, select, textarea, button {
 /* Elementos de classe "campo" */
 .campo {
     margin-bottom: 1em;
+    resize: none;
 }
 
 /* Elementos de classe "campo" de tag <label> */
