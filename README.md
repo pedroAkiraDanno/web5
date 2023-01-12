@@ -74,6 +74,9 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 <a href="https://html.com/" target="_blank">html</a> Explain: ---
 
+<a href="https://github.com/bradtraversy/50projects50days" target="_blank">50projects50days</a> Explain: ---
+
+
 ---
 
 Inspired in [w3schools](https://www.w3schools.com/html/) , this is postgresql auto-minimalistic version.
