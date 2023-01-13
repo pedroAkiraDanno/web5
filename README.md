@@ -37,6 +37,8 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **dark_light_form** ->[dark_light_form](https://pedroakiradanno.github.io/web5/dark_light_form/index.html)
 
+**netflix-clone-master** ->[netflix-clone-master](https://pedroakiradanno.github.io/web5/netflix-clone-master/netflix-clone-master/index.html)
+
 <br/>
 
 ---
@@ -50,7 +52,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 05  | [02-HTML-Fundamentals](https://github.com/pedroAkiraDanno/web5/tree/main/02-HTML-Fundamentals)                               | [Live Demo](https://pedroakiradanno.github.io/web5/02-HTML-Fundamentals/index.html)                |
 | 06  | [Netflix-Login](https://github.com/pedroAkiraDanno/web5/tree/main/login/Login)                               | [Live Demo](https://pedroakiradanno.github.io/web5/login/Login/index.html)                |
 | 07  | [dark_light_form](https://github.com/pedroAkiraDanno/web5/tree/main/dark_light_form)                               | [Live Demo](https://pedroakiradanno.github.io/web5/dark_light_form/index.html)                |
-
+| 08  | [netflix-clone](https://github.com/pedroAkiraDanno/web5/tree/main/netflix-clone-master)                               | [Live Demo](https://pedroakiradanno.github.io/web5/netflix-clone-master/netflix-clone-master/index.html)                |
 
 ---
 
