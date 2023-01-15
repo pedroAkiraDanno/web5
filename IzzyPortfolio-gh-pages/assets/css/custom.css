@@ -1,0 +1,107 @@
+/*#namehover {display:visible}
+#namehover:hover:before {content:"(Iskender)"}*/
+
+html {
+	overflow-x: hidden;
+}
+
+.logos:hover {
+	opacity: 0.7;
+}
+
+.spread-images>li img {
+    max-width: 130px;
+}
+
+#lastname {
+	font-size: 3.5rem;
+}
+
+#fullname {
+	line-height: 0.7;
+}
+
+
+.modal-content {
+	background-color:none !important;
+}
+
+.modal-header {
+	border:none;
+	border-bottom:none;
+	padding-bottom:0;
+}
+
+#profilepic {
+	height:150px;
+	width: auto;
+	border: 6px solid #0275d8;
+	padding: 2px;
+	margin-bottom: 15px;
+}
+
+#profilepic-container {
+	text-align: center;
+}
+
+.resume-box {
+	text-align: left;
+}
+
+#intro-paragraph {
+	margin-bottom: 0px;
+}
+
+#intro-list {
+	line-height: 3rem;
+}
+
+/*Konami Code */
+div#konami {
+    top: 70px;
+}
+
+.eightbit {
+	height:130px;
+	position:absolute;
+}
+
+#crono {
+	left: 70px;
+}
+
+#banana {
+	bottom: 250px;
+	right: 100px;
+	
+}
+
+#megaman {
+	bottom: 65px;
+	right: 100px;
+
+}
+
+#mario {
+	right: 100px;
+}
+
+#yoshi {
+	bottom: 65px;
+	left: 100px;
+}
+
+#samus {
+	bottom: 250px;
+	left: 100px;
+}
+
+.hidden-text {
+	display:none;
+}
+
+
+section#workexperience {
+    padding-top: 0;
+    padding-bottom: 0;
+}

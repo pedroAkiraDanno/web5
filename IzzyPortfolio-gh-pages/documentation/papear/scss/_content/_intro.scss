@@ -1,0 +1,99 @@
+/* Intro
+----------------------------------------------------------*/
+
+##{$a}intro {
+    position: relative;
+    height: 100vh;
+    z-index: 1000;
+    background: #fff;
+    padding: 60px 0;
+    @include box-shadow(0 0 70px 0 rgba(#000,0.05));
+    overflow: hidden;
+
+    &.#{$a}intro-items {
+        text-align: center;
+
+        .#{$a}intro-container {
+            position: relative;
+            width: 920px;
+            margin: 0 auto;
+
+            @include media('<=screen-md') {
+                width: auto;
+                margin: 0 6%;
+            }
+        }
+
+        .#{$a}images {
+            position: absolute;
+            top: 50%;
+            @include translate3d(0,-50%,0);
+
+            img {
+                max-width: none;
+            }
+
+            &.#{$a}left { 
+                right: 100%;
+                text-align: right;
+            }
+
+            &.#{$a}right { 
+                left: 100%;
+                text-align: left;
+            }
+        }
+
+        .#{$a}h1 {
+            font-size: 2rem;
+            margin-bottom: 0;
+
+            @include media("<=screen-sm") {
+                font-size: 1.5rem;
+            }
+        }
+
+        .#{$a}logo {
+            max-height: 40px;
+            margin-bottom: 8vh;
+
+            @include media("<=screen-sm") {
+                
+                max-height: 30px;
+            }
+        }
+
+        .#{$a}h4 {
+            margin-bottom: 8vh;
+        }
+
+        .#{$a}made-by {
+            position: absolute;
+            left: $screen-padding;
+            bottom: $screen-padding;
+            right: $screen-padding;
+            font-size: 0.75rem;
+            color: $color-muted;
+            font-weight: $font-primary-bold;
+            text-align: center;
+
+            @include media("height<=screen-height-sm") {
+                position: relative;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: $screen-padding-mobile;
+            }
+
+            span {
+                margin-right: 0.5rem;
+            }
+
+            img {
+                height: 27px;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+

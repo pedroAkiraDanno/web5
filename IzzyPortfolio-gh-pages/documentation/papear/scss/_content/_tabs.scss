@@ -1,0 +1,67 @@
+/* Tabs
+----------------------------------------------------------*/
+
+.#{$a}tabs-nav-container {
+    position: relative;
+    z-index: 2;
+
+    .#{$a}tabs-selector {    
+        position: absolute;
+        bottom: -2px;
+        height: 4px;
+        width: 30px;
+        background: $color-primary;
+        @include border-radius(2px);
+        @include transition-primary;
+    }
+}
+
+.#{$a}tabs-nav {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    > li {
+        display: inline-block;
+
+        > a {
+            display: block;
+            padding: 1.25rem;
+            font-weight: $font-primary-bold;
+            font-size: 0.9rem;
+            color: inherit;
+
+            &:hover, &:focus {
+                @include opacity(0.8);
+                color: inherit;
+            }
+        }
+
+        &.active {
+            > a {
+                &:hover, &:focus {
+                    @include opacity(1);
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+}
+
+.#{$a}tabs-content {
+    overflow: hidden;
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .#{$a}tabs-content-track {
+        position: relative;
+
+        > .#{$a}tab-pane {
+            float: left;
+        }
+    }
+}

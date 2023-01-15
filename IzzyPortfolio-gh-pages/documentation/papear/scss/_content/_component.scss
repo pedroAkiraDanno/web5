@@ -1,0 +1,219 @@
+/* Component
+----------------------------------------------------------*/
+
+/* Component Basic */
+.#{$a}component-basic {
+    padding: 1.5rem;
+    border: 1px solid $color-line;
+    @include border-radius(0.4rem 0.4rem 0 0);
+
+    > * {
+        margin-bottom: 0 !important;
+    }
+
+    & + .#{$a}pre-container {
+        margin-top: -1px !important;
+        @include border-radius(0 0 0.4rem 0.4rem);
+
+        .#{$a}pre {
+            padding: 1.5rem;
+        }
+    }
+}
+
+/* Component Container */
+.#{$a}component {
+    padding: 2rem;
+    //background-color: $color-light;
+    border: 1px solid $color-line;
+    margin-bottom: 3rem;
+    @include border-radius(0.4rem);
+    @include transition-primary;
+    visibility: hidden;
+    @include opacity(0);
+
+    &.#{$a}loaded {
+        @include opacity(1);
+        visibility: visible;
+    }
+
+    &[data-component-size="sm"] {
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .#{$a}component-inline, .#{$a}component-block {
+        position: relative;
+        padding: 1rem;
+        border: 1px dashed transparent;
+        @include border-radius(0.3rem);
+        margin-bottom: 0.5rem;
+        @include transition-primary;
+
+        &:hover, &:focus {
+            border-color: $color-line-medium;
+            //background-color: #fff;
+        }
+
+        > * {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+
+        .#{$a}tools {
+            position: absolute;
+            top: -14px;
+            right: -1rem;
+            @include opacity(0);
+            visibility: hidden;
+            @include scale(0.9);
+        }
+
+        &:hover, &:focus {
+            .#{$a}tools {
+                @include opacity(1);
+                visibility: visible;
+                @include scale(1)
+            }
+        }
+    }
+
+    .#{$a}component-inline {
+        display: inline-block;
+    }   
+}
+
+.#{$a}component-item {
+    > * {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+.#{$a}component-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1500;
+    display: none;
+    overflow: auto;
+
+    .#{$a}component-modal-overlay {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(to bottom, #000, rgba(#000,0.7));
+        @include opacity(0.7);
+        z-index: 1;
+    }
+
+    .#{$a}component-modal-dialog {
+        position: relative;
+        background: #fff;
+        @include border-radius(0.4rem);
+        width: 1100px;
+        margin: 15vh auto 50px auto;
+        z-index: 2;
+        @include opacity(0);
+        @include translateY(-10px);
+        @include transition-primary;
+
+        @include media('<=screen-lg') {
+            width: auto;
+            margin: 15vh 15px 50px 15px;
+        }
+
+        > .#{$a}pre-container {
+            @include border-radius(0 0 0.4rem 0.4rem);
+            border: none;
+            border-top: 1px solid $color-line;
+                
+            .#{$a}tools {
+                position: absolute;
+                top: -14px;
+                right: 1rem;
+            }
+
+            .#{$a}pre {
+                padding: 1.5rem;
+            }
+        }
+
+        > .#{$a}close {
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            color: #fff;
+            
+            @include media('<=screen-xl') {
+                right: 0;
+            }
+        }
+    }
+
+    &.#{$a}open {
+        .#{$a}component-modal-dialog {
+            @include opacity(1);
+            @include translateY(0);
+        }
+    }
+
+    .#{$a}component-modal-body {
+        padding: 2rem;
+
+        .#{$a}component-modal-body-title {
+            margin-bottom: 2rem;
+            display: block;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            color: $color-muted;
+            font-weight: $font-primary-bold;
+        }
+
+        .#{$a}component-modal-body-preview {
+            > * {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &.#{$a}component-modal-center,
+    &.#{$a}component-modal-inline {
+        .#{$a}component-modal-body { 
+            text-align: center;
+        }
+    }
+}
+
+##{$a}textarea-tmp {
+    //display: none;
+    position: absolute;
+    //visibility: hidden;
+}
+
+/* Tabs */
+.#{$a}component-tabs {
+    margin-bottom: 3.5rem; 
+
+    .#{$a}tabs-nav {
+        text-align: center;
+    }
+}
+
+.#{$a}tabs-content {
+    @include border-radius(0.4rem);
+    border: 1px solid $color-line;
+
+    .#{$a}component {
+        border: none;
+        margin: 0;
+    }
+}
+

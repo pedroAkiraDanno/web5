@@ -1,0 +1,95 @@
+/* Animation 
+----------------------------------------------------------*/
+
+.#{$a}animations-list {
+    @include display-flex;
+    margin-left: -5px;
+    margin-right: -5px;
+    @include flex-wrap(wrap);
+
+    .#{$a}animation-container { 
+        margin: 0 5px 10px 5px;
+        width: calc(33.3333333% - 10px);
+    }
+}
+
+.#{$a}animation-container {
+    position: relative;
+    padding: 0.5rem;
+    border: 1px dashed transparent;
+    @include transition-primary;
+    @include border-radius(0.3rem);
+    cursor: pointer;
+
+    .#{$a}tools {
+        position: absolute;
+        top: -14px;
+        right: -1rem;
+        @include opacity(0);
+        visibility: hidden;
+        @include scale(0.9);
+    }
+
+    > svg {
+        position: absolute;
+        top: 35px;
+        left: calc(50% - 20px);
+        width: 40px;
+        height: 50px;
+
+        > path {
+            stroke: shade($color-line, 20%);
+            fill: transparent;
+            @include transition-primary;
+        }
+    }
+
+    &.#{$a}animation-play {
+        > svg > path {
+            stroke: $color-primary;
+            stroke-dasharray: 115;
+            @include animation(ppsAnimationPlay 1s both 0.1s);
+
+            @include keyframes(ppsAnimationPlay) {
+                0% {
+                    stroke-dashoffset: 115;
+                }
+                100% {
+                    stroke-dashoffset: 0;
+                }
+            }
+        }
+    }
+
+    &:hover, &:focus {
+        border-color: $color-line-medium;
+
+        > svg > path {
+            stroke: $color-primary;
+        }
+
+        .#{$a}tools {
+            @include opacity(1);
+            visibility: visible;
+            @include scale(1)
+        }
+    }
+}
+
+.#{$a}animation {
+    text-align: center;
+    padding: 90px 2rem 2rem;
+    background-color: shade($color-light, 4%);
+    @include border-radius(0.2rem);
+    @include animation-duration(1s);
+    @include animation-fill-mode(both);
+
+    .#{$a}animation-name {
+        display: block;
+        font-weight: $font-primary-bold;
+        text-transform: uppercase;
+        margin-top: 0.5rem;
+        font-size: 0.75rem;
+        @include transition-primary;
+    }
+}

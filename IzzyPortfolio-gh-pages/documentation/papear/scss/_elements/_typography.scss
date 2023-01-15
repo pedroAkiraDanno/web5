@@ -1,0 +1,60 @@
+/* Typography 
+----------------------------------------------------------*/
+
+/* Headings */
+
+.#{$a}h1, .#{$a}h2, .#{$a}h3, .#{$a}h4, .#{$a}h5, .#{$a}h6 {
+	margin-top: 0;
+	margin-bottom: 1.75rem;
+	font-weight: $font-primary-light;
+} 
+
+
+.#{$a}h1 { 
+	font-size: 3rem;
+}
+
+.#{$a}h2 { 
+	font-size: 2.25rem;
+}
+
+.#{$a}h3 { 
+	font-size: 1.75rem;
+}
+
+.#{$a}h4 { 
+}
+
+.#{$a}h5 { 
+}
+
+.#{$a}h6 { 
+	font-size: 1em;
+	font-weight: $font-primary-bold;
+}
+
+/* Paragraph */
+
+.#{$a}p {
+	font-size: 1rem;
+	margin-bottom: 1.75rem;
+}
+
+p.#{$a}lead {
+	font-size: 1.25rem;
+	margin-bottom: 1.75rem;
+}
+
+/* Colors */
+
+$k: 1;
+@for $i from 1 through length($colorVersions)/2 {
+    $type: nth($colorVersions,$k);
+    $color: nth($colorVersions,$k+1);
+
+    .#{$a}text-#{$type} {
+		color: $color;
+    }
+    $k: $k+2;
+}
+

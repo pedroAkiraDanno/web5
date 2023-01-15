@@ -1,0 +1,53 @@
+/* Buttons
+----------------------------------------------------------*/
+
+.#{$a}btn {
+    @include button-clear;
+    position: relative;
+    font-size: 0.85rem;
+    padding: 1.25rem 2.25rem;
+    @include transition-primary;
+    cursor: pointer;
+    border-width: 1px;
+    font-weight: $font-primary-bold;
+    @include border-radius(0.2rem);
+    overflow: hidden;
+    @include backface-visibility(hidden);
+
+    &:hover, &:focus, &:active, &:focus:active {
+        outline: none;
+        @include box-shadow(none);
+    }
+}
+
+/* Types */
+
+$k: 1;
+@for $i from 1 through length($colorVersions)/2 {
+    $type: nth($colorVersions,$k);
+    $color: nth($colorVersions,$k+1);
+
+    .#{$a}btn-#{$type} {
+        border-color: transparent;
+        background-color: $color;
+        color: #fff;
+
+        @if $type == 'muted' {
+            background-color: tint($color,90%);
+            color: $color-global;
+        }
+
+        &:hover, &:focus, &:active, &:focus:active {
+            border-color: transparent;
+            background-color: darken($color, 10%);
+            color: #fff;
+
+            @if $type == 'muted' {
+                background-color: tint($color,80%);
+                color: $color-global;
+            }
+        }
+    }
+    $k: $k+2;
+}
+

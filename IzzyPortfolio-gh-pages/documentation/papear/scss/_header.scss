@@ -1,0 +1,249 @@
+/* ---------------------------------------------------------------------------- */
+/* --- 3. HEADER
+/* ----------------------------------------------------------------------------- */
+
+##{$a}header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $header-height;
+    z-index: 960;
+    padding-left: $navigation-width;
+    @include display-flex;
+    @include align-items(center);
+
+    @include media("<=screen-lg") {
+        height: $header-height-mobile;
+        padding-left: 0;
+
+        .#{$a}container {
+            margin: 0;
+        }
+    }
+
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 150%;
+        background-image: linear-gradient(to bottom, #fff 35%, rgba(#fff,0));
+        content: ' ';
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .#{$a}logo {
+        position: absolute;
+        left: $screen-padding;
+        z-index: 5;
+
+        @include media("<=screen-lg") {
+            left: $screen-padding-mobile;
+        }
+
+        img {
+            max-height: 35px;
+            display: block;
+            max-width: none;
+
+            @include media("<=screen-lg") {
+                max-height: 25px;
+                max-width: 80px;
+            }
+
+            @include media("<=screen-xs") {
+                max-width: 50px;
+            }
+
+            @include media("<=screen-lg") {
+            }
+        }
+    }
+
+    .#{$a}typehead {
+        position: relative;
+        z-index: 10;
+        @include flex(1 0 auto);
+
+        @include media("<=screen-lg") {
+            margin-left: 150px;
+            margin-right: 50px;
+        }
+
+        @include media("<=screen-xs") {
+            margin-left: 90px;
+        }
+
+        form {
+            position: relative;
+            @include display-flex;
+            @include align-items(center);
+
+            &:before {
+                font-family: 'Flaticon';
+                content: $font-Flaticon-search;
+                font-size: 1.5rem;
+                @include opacity(0.3);
+                @include transition-primary;
+            }
+
+            input {
+                @include input-clear;
+                font-size: 1.25rem;
+                font-weight: $font-primary-light;
+                padding-left: 1.25rem;
+                @include flex(1 0 auto);
+
+                @include media("<=screen-lg") {
+                    font-size: 1rem;
+                }
+
+                @include input-placeholder {
+                    color: $color-muted;
+                }
+            }
+        }
+
+        &.#{$a}focus {
+            form {
+                &:before {
+                    @include opacity(1);
+                    color: $color-primary;
+                }
+            }
+        }
+
+        .#{$a}results {
+            position: absolute;
+            //top: calc(100% + 1.75rem)
+            top: 70px;
+            left: 0;
+            right: 0;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+            max-height: calc(100vh - 70px);
+            display: none;
+            font-weight: $font-primary-bold;
+
+            > li {
+                &:not(:last-child) {
+                    border-bottom: 1px solid $color-line;
+                    padding-bottom: 0.5rem;
+                    margin-bottom: 0.75rem;
+                }
+            }
+
+            @include link-inherit;
+
+            .#{$a}result-title {
+                font-size: 1.15rem;
+                display: inline-block;
+                margin-right: 0.5rem;
+                //font-weight: $font-primary-regular;
+            }
+
+            .#{$a}result-parents {
+                font-size: 0.85rem;
+                color: $color-muted;
+                display: inline-block;
+
+                a {
+                    & + a {
+                        &:before {
+                            content: '>';
+                            margin: 0.3rem;
+                        }
+                    }
+                    &:hover, &:focus {
+                        color: $color-global;
+                    }
+                }
+            }
+        }
+    }
+
+    ##{$a}nav-toggle {
+        position: absolute;
+        top: 50%;
+        right: $screen-padding-mobile;
+        @include translateY(-50%);
+        display: none;
+
+        @include media("<=screen-lg") {
+            display: block;
+        }
+    }
+}
+
+##{$a}typehead-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 955;
+    background-color: rgba(#fff,0.9);
+    display: none;
+}
+
+// Navigation Toggle
+##{$a}nav-toggle {
+    width: 26px;
+    height: 26px;
+    @include transform(rotate(0deg));
+    @include transition(0.5s ease-in-out)
+    cursor: pointer;
+    display: inline-block;
+
+    span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: $color-global;
+        @include opacity(1);
+        left: 0;
+        @include transform(rotate(0deg));
+        @include transition(0.25s ease-in-out);
+
+        &:nth-child(1) {
+            top: 0px;
+        }
+
+        &:nth-child(2), &:nth-child(3) {
+            top: 8px;
+        }
+
+        &:nth-child(4) {
+            top: 16px;
+        }
+    }
+
+    &.open span {
+        background-color: $color-global;
+        
+        &:nth-child(1) {
+            @include translateX(-10px);
+            @include opacity(0);
+            @include filter(blur(3px));
+        }
+
+        &:nth-child(2) {
+            @include transform(rotate(45deg));
+        }
+
+        &:nth-child(3) {
+            @include transform(rotate(-45deg));
+        }
+
+        &:nth-child(4) {
+            @include translateX(10px);
+            @include opacity(0);
+            @include filter(blur(3px));
+        }
+    }
+}

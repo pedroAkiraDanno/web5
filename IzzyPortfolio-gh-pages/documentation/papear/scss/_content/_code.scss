@@ -1,0 +1,150 @@
+/* Other
+----------------------------------------------------------*/
+
+.#{$a}pre-container {
+    position: relative;
+    background-color: $color-light;
+    border: 1px solid $color-line;
+    @include border-radius(0.3rem);
+    margin: 0 0 30px 0 !important;
+    @include transition-primary;
+    visibility: hidden;
+    @include opacity(0);
+
+    &.#{$a}loaded {
+        @include opacity(1);
+        visibility: visible;
+    }
+
+    .#{$a}pre-collapsible {
+        height: 200px;
+        overflow: hidden;
+        cursor: pointer;
+        @include transition-primary;
+
+        &:hover {
+            height: 205px;
+        }
+
+        &:after {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            @include border-radius(0 0 0.3rem 0.3rem);
+            height: 70px;
+            content: ' ';
+            background: linear-gradient(to top, rgba($color-light,1), rgba($color-light,0));
+            @include transition-primary;
+        }
+
+        &.#{$a}expanded {
+            cursor: auto;
+            max-height: none;
+
+            &:after {
+                @include opacity(0);
+                visibility: hidden;
+            }
+        }
+    }
+
+    .#{$a}tools {
+        position: absolute;
+        top: -14px;
+        right: -1rem;
+        @include opacity(0);
+        visibility: hidden;
+        @include scale(0.9);
+    }
+
+    &:hover, &:focus {
+        .#{$a}tools {
+            @include opacity(1);
+            visibility: visible;
+            @include scale(1);
+        }
+    }
+}
+
+// Pre
+
+textarea.#{$a}pre {
+    display: none;
+}
+
+.#{$a}pre {
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    color: $color-global;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    padding: 10px 15px;
+    background: transparent;
+    margin-bottom: 0;
+
+    .com {
+        color: $color-code-1;
+    }
+    .lit {
+        color: $color-code-2;
+    }
+    .pun, .opn, .clo {
+        color: $color-code-3;
+    }
+    .fun {
+        color: $color-code-4;
+    }
+    .str, .atv {
+        color: $color-code-5;
+    }
+    .kwd, .tag {
+        color: $color-code-6;
+    }
+    .typ, .atn, .dec, .var {
+        color: $color-code-7;
+    }
+    .pln {
+        color: $color-code-8;
+    }
+}
+.pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll;
+}
+.pps_pre.linenums {
+    -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+            box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+.pps_pre ol.linenums {
+    margin: 0 0 0 -12px;
+}
+.pps_pre ol.linenums li {
+    padding-left: 12px;
+    color: #bebec5;
+    line-height: 20px;
+    list-style: decimal;
+}
+
+// Code
+
+.#{$a}code {
+    padding: 0.1em 0.4em;
+    background-color: $color-light;
+    border: 1px solid #e1e1e8;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    color: $color-code-6;
+    display: inline-block;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    border: 1px solid $color-line;
+    @include border-radius(0.15rem);
+}

@@ -1,0 +1,47 @@
+/* ---------------------------------------------------------------------------- */
+/* --- 5. FOOTER
+/* ----------------------------------------------------------------------------- */
+
+##{$a}footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 4rem 0 4rem $navigation-width;
+    color: #fff;
+    background-color: $color-primary-dark;
+    z-index: 1;
+
+    @include media("<screen-lg") {
+        margin-left: 0;
+    }
+
+    @include link-inherit;
+
+    .#{$a}copyright {
+        margin-top: 1.5rem;
+        font-size: 0.85rem;
+        font-weight: $font-primary-bold;
+    }
+
+    .#{$a}made-by {
+        img {
+            height: 27px;
+            vertical-align: middle;
+        }
+    }
+    .#{$a}credits {
+        font-size: 0.7rem;
+        margin-top: 0.25rem;
+        color: $color-muted-light;
+
+        a {
+            color: inherit;
+
+            &:hover, &:focus {
+                color: $color-primary;
+            }
+        }
+    }
+}

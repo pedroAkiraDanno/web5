@@ -1,0 +1,11 @@
+{
+  "name": "Papears",
+  "description": "Plugins",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize-scss": "^7.0.0",
+    "waypoints": "^4.0.1"
+  }
+}

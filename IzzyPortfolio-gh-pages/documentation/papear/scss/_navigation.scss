@@ -1,0 +1,188 @@
+/* ---------------------------------------------------------------------------- */
+/* --- 3. NAVIGATION
+/* ----------------------------------------------------------------------------- */
+
+##{$a}navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow: auto;
+    width: $navigation-width;
+    padding: 80px 0 0;
+    background-color: #fff;
+    z-index: 950;
+    border-right: 1px solid $color-line;
+    @include display-flex;
+
+    @include media("<=screen-lg") {
+        @include transition-primary;
+        border-right: none;
+        @include translateX(-100%);
+        @include box-shadow(0 0 50px 0 rgba(#000,0.05));
+        visibility: hidden;
+
+        &.#{$a}show {
+            @include translateX(0);
+            visibility: visible;
+        }
+    }
+    @include media("height<=screen-height-sm") {
+        display: block;
+    }
+
+    // &:after {
+    //     position: absolute;
+    //     top: $screen-padding;
+    //     right: 0;
+    //     bottom: $screen-padding;
+    //     width: 1px;
+    //     content: ' ';
+    //     background-color: $color-line;
+    // }
+
+    .#{$a}logo {
+        position: absolute;
+        top: $screen-padding;
+        left: $screen-padding;
+        z-index: 5;
+
+        img {
+            height: 25px;
+            display: block;
+            max-width: none;
+        }
+    }
+
+    .#{$a}nav-primary {
+        position: relative;
+        list-style: none;
+        @include display-flex;
+        @include flex-direction(column);
+        @include align-self(center);
+        margin: 0;
+        padding: 0 2rem;
+        @include flex(1 0 auto);
+        @include transition-primary;
+
+        @include media("height<=screen-height-sm") {
+            @include align-self(auto);
+        }
+
+        li {
+            &.active {
+                > a {
+                    color: $color-primary;
+                }
+            }
+        }
+
+        > li {
+            > a {
+                display: block;
+                font-size: 1.1rem;
+                padding: 1rem 0;
+                font-weight: $font-primary-bold;
+                color: inherit;
+                text-align: right;
+
+                &:hover, &:focus {
+                    color: $color-primary;
+                }
+            }
+
+            ul {
+                position: absolute;
+                top: 0;
+                left: 100%;
+                list-style: none;
+                padding: 0;
+                margin: 0.5rem 0; 
+                width: 160px;
+                @include transition-primary;
+                visibility: hidden;
+                @include opacity(0);
+
+                > li {
+                    > a {
+                        color: inherit;
+                        font-weight: $font-primary-bold;
+                        font-size: 0.9rem;
+                        padding: 0.4rem 0;
+                        display: block;
+
+                        &:hover, &:focus {
+                            color: $color-primary;
+                        }
+
+                        &.#{$a}back {
+                            color: $color-muted;
+
+                            &:before {
+                                font-family: 'Flaticon';
+                                content: $font-Flaticon-chevron-left;
+                                font-size: 70%;
+                                vertical-align: middle;
+                                margin-right: 0.75rem;
+                                @include transition-primary;
+                                display: inline-block;
+                            }
+
+                            &:hover, &:focus {
+                                &:before {
+                                    color: $color-global;
+                                    @include translateX(-2px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.active {
+                > a {
+                    color: $color-primary;
+                }
+                > ul {
+                    visibility: visible;
+                    @include opacity(1);
+                }
+            }
+        }
+
+        &.#{$a}sub-level {
+            > li > a {
+                @include filter(blur(1px));
+                @include opacity(0.75);
+            }
+        }
+    }
+
+    .#{$a}made-by {
+        position: absolute;
+        left: $screen-padding;
+        bottom: $screen-padding;
+        right: $screen-padding;
+        font-size: 0.75rem;
+        color: $color-muted;
+        font-weight: $font-primary-bold;
+
+
+        @include media("height<=screen-height-sm") {
+            position: relative;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: $screen-padding-mobile;
+        }
+
+        span {
+            margin-right: 0.5rem;
+        }
+
+        img {
+            height: 27px;
+            vertical-align: middle;
+        }
+    }
+}

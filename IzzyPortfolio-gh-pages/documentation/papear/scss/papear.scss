@@ -1,0 +1,46 @@
+@charset 'UTF-8';
+/* -----------------------------------------------------------------------------
+
+Papears
+
+File:           Base SCSS File
+Version:        1.0
+Last change:    27/07/2017 
+Author:         Suelo 
+
+-------------------------------------------------------------------------------- */
+
+// Import Fonts 
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+
+// Import CSS3 Mixins 
+@import "../../../node_modules/compass-mixins/lib/compass/css3";
+@import "../../../node_modules/compass-mixins/lib/compass/utilities";
+@import "../../../node_modules/compass-mixins/lib/animation/core";
+@import "../../../node_modules/compass-mixins/lib/animation/core";
+
+// Import Include Media
+@import "../../../node_modules/include-media/dist/_include-media.scss";
+
+// Import Config 
+@import "config";
+
+// Import Icons
+@import "flaticon";
+
+// Import Styles
+@import "setup";
+@import "basics";
+@import "header";
+@import "navigation";
+@import "content";
+@import "footer";
+@import "elements";
+
+// Import
+.pps_example {
+    // @import "../../../Ja/assets/plugins/bootstrap/dist/css/bootstrap.min";
+    // @import "../../../Ja/assets/plugins/animate.css/animate.min";
+    // @import "../../../Ja/assets/plugins/slick-carousel/slick/slick.scss";
+    // @import "../../../Ja/assets/css/themes/theme-blue.min";
+}

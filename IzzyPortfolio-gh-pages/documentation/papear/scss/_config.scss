@@ -1,0 +1,179 @@
+// SASS Configuration File
+
+// Normalize
+// -----------------------------------------
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+$base-unit: 'rem';
+$base-font-family: 'Poppins', sans-serif;
+$h1-font-size: 2    * $base-font-size;
+$h2-font-size: 1.5  * $base-font-size;
+$h3-font-size: 1.17 * $base-font-size;
+$h4-font-size: 1    * $base-font-size;
+$h5-font-size: 0.83 * $base-font-size;
+$h6-font-size: 0.67 * $base-font-size;
+$indent-amount: 40px;
+$normalize-vertical-rhythm: false;
+
+// Fonts
+// -----------------------------------------
+
+$font-primary: 'Poppins', sans-serif;
+
+$font-primary-light: 300;
+$font-primary-regular: 400;
+$font-primary-bold: 500;
+
+// Colors
+// -----------------------------------------
+
+$color-primary: #1E8DEE;
+//$color-primary: #71B248;
+$color-primary-dark: #3a434b;
+$color-secondary: #ef6134;
+$color-light: #FCFCFC;
+$color-medium: #b3becc;
+$color-dark: #363636;
+
+$color-global: #363636;
+$color-muted: #919191;  
+$color-muted-light: rgba(255,255,255,0.6);  
+
+$color-red: #e15757;
+$color-blue: #3c92dc;
+$color-orange: #ec9744;
+$color-red: #dd5151;
+$color-green: #75b645;
+
+$color-line: #E5E5E5;
+$color-line-medium: shade($color-line,20%);
+$color-line-light: rgba(255,255,255,0.15);
+
+// Colors - Social 
+$color-facebook: #213553;
+$color-twitter: #3aa8db;
+$color-google: #d04f3e;
+$color-behance: #1882ff;
+$color-dribbble: #e95aae;
+$color-flickr: #f9429c;
+$color-instagram: #4f86ac;
+$color-linkedin: #008bc2;
+$color-pinterest: #cb1f24;
+$color-skype: #00bef4;
+$color-slack: #44ba97;
+$color-tumblr: #435971;
+$color-vimeo: #0bc4ef;
+$color-vine: #00be9b;
+$color-youtube: #ed4533;
+
+// Colors - Code 
+$color-code-1: #aaaaaa;
+$color-code-2: #324b7f; // dark green
+$color-code-3: #859298; // light primary
+$color-code-4: #cd4b32; // orange darker
+$color-code-5: #ef6134; // class orange
+$color-code-6: #174685; // tag
+$color-code-7: #1E8DEE; // attr
+$color-code-8: #363636;
+
+// $color-code-1: #aaaaaa;
+// $color-code-2: #447f32;
+// $color-code-3: #97a193;
+// $color-code-4: #dc582f;
+// $color-code-5: #de7a22; // class 
+// $color-code-6: #4a7d17; // tag
+// $color-code-7: #75b645; // attr
+// $color-code-8: #363636;
+
+// Other 
+$a: 'pps_';
+$screen-padding: 40px;
+$screen-padding-mobile: 25px;
+$navigation-width: 350px;
+$header-height: 100px;
+$header-height-mobile: 75px;
+
+// Media Queries
+// -----------------------------------------
+
+$breakpoints: (screen-xl: 1500px, screen-lg: 1199px, screen-md: 991px, screen-sm: 767px, screen-xs: 575px, screen-height-sm: 550px);
+
+// Mixins
+// -----------------------------------------
+
+@mixin transition-primary() {
+	@include transition(all 0.25s ease-out);
+}
+
+@mixin transition-secondary() {
+	@include transition(all 0.45s ease-out);
+}
+
+@mixin button-clear {
+	background-color: transparent;
+    @include appearance(none);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    @include transition-primary;
+}
+
+@mixin input-clear {
+	background-color: transparent;
+    @include appearance(none);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    @include transition-primary;
+}
+
+@mixin fill-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: ' ';
+}
+
+@mixin link-inherit {
+    a {
+        color: inherit;
+        &:hover, &:focus {
+            color: $color-primary;
+        }
+    }
+}
+
+// Arrays
+// -----------------------------------------
+
+$socialBrands:
+    "facebook", $color-facebook,
+    "twitter", $color-twitter,
+    "google", $color-google,
+    "behance", $color-behance,
+    "dribbble", $color-dribbble,
+    "flickr", $color-flickr,
+    "instagram", $color-instagram,
+    "linkedin", $color-linkedin,
+    "pinterest", $color-pinterest,
+    "skype", $color-skype,
+    "slack", $color-slack,
+    "tumblr", $color-tumblr,
+    "vimeo", $color-vimeo,
+    "vine", $color-vine,
+    "youtube", $color-youtube;
+
+$colorVersions:
+	"primary", $color-primary,
+	"secondary", $color-secondary,
+	"info", $color-blue,
+	"warning", $color-orange,
+	"danger", $color-red,
+	"success", $color-green,
+    "dark", $color-dark,
+	"muted", $color-muted;
+
+

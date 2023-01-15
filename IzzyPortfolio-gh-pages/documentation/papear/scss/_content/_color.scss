@@ -1,0 +1,56 @@
+/* Color
+----------------------------------------------------------*/
+
+.#{$a}color-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    border: 1px dashed transparent;
+    @include transition-primary;
+    @include border-radius(0.3rem);
+
+    .#{$a}tools {
+        position: absolute;
+        top: -14px;
+        right: -1rem;
+        @include opacity(0);
+        visibility: hidden;
+        @include scale(0.9);
+    }
+
+    .#{$a}color {
+        width: 120px;
+        text-align: center;
+
+        .#{$a}color-sample {
+            width: 52px;
+            height: 52px;
+            @include border-radius(0.3rem);
+            display: inline-block;
+        }
+        .#{$a}color-name {
+            display: block;
+            font-weight: $font-primary-bold;
+            text-transform: uppercase;
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            color: $color-muted;
+            @include transition-primary;
+        }   
+    }
+
+    &:hover, &:focus {
+        border-color: $color-line-medium;
+
+        .#{$a}tools {
+            @include opacity(1);
+            visibility: visible;
+            @include scale(1)
+        }
+
+         .#{$a}color .#{$a}color-name {
+            color: $color-global;
+         }
+    }
+}

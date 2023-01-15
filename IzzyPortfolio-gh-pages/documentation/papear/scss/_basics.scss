@@ -1,0 +1,29 @@
+/* ---------------------------------------------------------------------------- */
+/* --- 2. BASICS
+/* ----------------------------------------------------------------------------- */
+
+.#{$a}text-center {
+    text-align: center;
+}
+
+strong {
+    font-weight: $font-primary-bold;
+}
+
+.#{$a}pos-v-center {
+    position: relative;
+    top: 50%;
+    @include translate3d(0,-50%,0);
+    @include transition(all 0.3s ease-out);
+
+    @include media("<=screen-sm") {
+        top: 0;
+        @include translate3d(0,0,0);
+    }
+
+    @include media("height<=screen-height-sm") {
+        top: 0;
+        @include translate3d(0,0,0);
+    }
+}
+

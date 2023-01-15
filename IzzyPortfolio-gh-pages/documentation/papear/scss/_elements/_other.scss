@@ -1,0 +1,92 @@
+/* Other
+----------------------------------------------------------*/
+
+/* Separator */
+hr.#{$a}hr {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+    border: none;
+    border-top: 2px solid $color-line;
+}
+
+/* Close */
+
+.#{$a}close {
+    @include button-clear;
+    padding: 0;
+    color: inherit;
+    text-shadow: none;
+    @include opacity(0.6);
+    font-size: 0.9em;
+    @include transition-primary;
+
+    &:hover, &:focus, &:active, &:focus:active {
+        outline: none;
+        @include opacity(1);
+        @include rotate(90deg);
+    }
+
+    &:before {
+        content: $font-Flaticon-close;
+        font-family: 'Flaticon';
+    }
+}
+.dark .close {
+    color: #fff;
+}
+
+/* Lists */
+
+.#{$a}list {
+    margin: 0 0 2rem 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        margin-bottom: 0.25rem;
+    }
+}
+
+.#{$a}ol {
+    margin: 0 0 2rem 0;
+
+    li {
+        margin-bottom: 0.15rem;
+    }
+}
+
+.#{$a}ol-credits {
+    margin: 0 0 2rem 0;
+
+    li {
+        margin-bottom: 0.15rem;
+        font-size: 0.9rem;
+
+        a {
+            color: $color-muted;
+
+            &:hover, &:focus {
+                color: $color-global;
+            }
+        }
+    }
+}
+
+.#{$a}list-credits {
+    margin: 0 0 2rem 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        margin-bottom: 0.25rem;
+        font-size: 0.8rem;
+
+        a {
+            color: $color-muted;
+
+            &:hover, &:focus {
+                color: $color-global;
+            }
+        }
+    }
+}

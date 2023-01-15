@@ -1,0 +1,67 @@
+/* Loader
+----------------------------------------------------------*/
+
+/* Loader */
+
+.#{$a}loader { 
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    fill: transparent;
+    stroke: $color-primary;
+    stroke-linecap: round;
+    @include animation(loaderAnimation 1.5s ease-in-out infinite);
+    @include rotate(-20deg);
+
+    > circle {
+        stroke-dasharray:10, 8.5;
+        @include animation(loaderCircleAnimation 1.5s ease-in-out infinite);
+        @include transform-origin(center, center);
+    }
+}
+
+@include keyframes(loaderCircleAnimation) {
+    40% {
+        stroke-dasharray:10, 8.5;
+        stroke-dashoffset: 0;
+        @include scale(1);
+    }
+    60% {
+        stroke-dasharray:3, 15.5;
+        stroke-dashoffset: -3;
+        @include scale(1);
+        @include opacity(1);
+    }
+    80% {
+        @include scale(0);
+        @include opacity(0);
+    }
+    100% {
+        stroke-dasharray:10, 8.5;
+        stroke-dashoffset: 0;
+        @include scale(1);
+        @include opacity(1);
+    }
+}
+
+@include keyframes(loaderAnimation) {
+    0% {
+        @include rotate(-20deg);
+    }
+    45% {
+        @include rotate(340deg);
+
+    }
+    100% {
+        @include rotate(340deg);
+    }
+}
+
+/* Page Loader */
+
+##{$a}page-loader {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 1500;
+}
