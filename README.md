@@ -39,6 +39,10 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **netflix-clone** ->[netflix-clone-master](https://pedroakiradanno.github.io/web5/netflix-clone/index.html)
 
+**resumetemplate-gh-pages** ->[netflix-clone-master](https://pedroakiradanno.github.io/web5/resumetemplate-gh-pages/index.html)
+
+
+
 <br/>
 
 ---
@@ -53,6 +57,8 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 06  | [Netflix-Login](https://github.com/pedroAkiraDanno/web5/tree/main/login/Login)                               | [Live Demo](https://pedroakiradanno.github.io/web5/login/Login/index.html)                |
 | 07  | [dark_light_form](https://github.com/pedroAkiraDanno/web5/tree/main/dark_light_form)                               | [Live Demo](https://pedroakiradanno.github.io/web5/dark_light_form/index.html)                |
 | 08  | [netflix-clone](https://github.com/pedroAkiraDanno/web5/tree/main/netflix-clone)                               | [Live Demo](https://pedroakiradanno.github.io/web5/netflix-clone/index.html)                |
+| 09  | [resumetemplate-gh-pages](https://github.com/pedroAkiraDanno/web5/tree/main/resumetemplate-gh-pages)                               | [Live Demo](https://pedroakiradanno.github.io/web5/resumetemplate-gh-pages/index.html)                |
+
 
 ---
 
