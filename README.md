@@ -41,7 +41,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **resumetemplate-gh-pages** ->[resumetemplate-gh-pages](https://pedroakiradanno.github.io/web5/resumetemplate-gh-pages/index.html)
 
-**IzzyPortfolio-gh-pages** ->[IzzyPortfolio-gh-pages(https://pedroakiradanno.github.io/web5/IzzyPortfolio-gh-pages/index.html)
+**IzzyPortfolio-gh-pages** ->[IzzyPortfolio-gh-pages](https://pedroakiradanno.github.io/web5/IzzyPortfolio-gh-pages/index.html)
 
 
 
