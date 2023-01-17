@@ -43,7 +43,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **IzzyPortfolio-gh-pages** ->[IzzyPortfolio-gh-pages](https://pedroakiradanno.github.io/web5/IzzyPortfolio-gh-pages/index.html)
 
-
+**Tribute_page** ->[Tribute_page](https://pedroakiradanno.github.io/web5/Tribute_page/index.html)
 
 
 <br/>
@@ -61,7 +61,8 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 07  | [dark_light_form](https://github.com/pedroAkiraDanno/web5/tree/main/dark_light_form)                               | [Live Demo](https://pedroakiradanno.github.io/web5/dark_light_form/index.html)                |
 | 08  | [netflix-clone](https://github.com/pedroAkiraDanno/web5/tree/main/netflix-clone)                               | [Live Demo](https://pedroakiradanno.github.io/web5/netflix-clone/index.html)                |
 | 09  | [resumetemplate-gh-pages](https://github.com/pedroAkiraDanno/web5/tree/main/resumetemplate-gh-pages)                               | [Live Demo](https://pedroakiradanno.github.io/web5/resumetemplate-gh-pages/index.html)                |
-| 10  | [IzzyPortfolio-gh-pages](https://github.com/pedroAkiraDanno/web5/tree/main/IzzyPortfolio-gh-pages)                               | [Live Demo](https://pedroakiradanno.github.io/web5/IzzyPortfolio-gh-pages/index.html)            
+| 10  | [IzzyPortfolio-gh-pages](https://github.com/pedroAkiraDanno/web5/tree/main/IzzyPortfolio-gh-pages)                               | [Live Demo](https://pedroakiradanno.github.io/web5/IzzyPortfolio-gh-pages/index.html)     
+| 11  | [Tribute_page](https://github.com/pedroAkiraDanno/web5/tree/main/Tribute_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Tribute_page/index.html)        
 
 ---
 
