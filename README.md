@@ -51,7 +51,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **Landing_page** ->[Landing_page](https://pedroakiradanno.github.io/web5/Landing_page/index.html)
 
-**Event_Page* ->[Landing_page](https://pedroakiradanno.github.io/web5/Event_Page/index.html)
+**Event_Page** ->[Event_Page](https://pedroakiradanno.github.io/web5/Event_Page/index.html)
 
 
 
@@ -74,7 +74,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 11  | [Tribute_page](https://github.com/pedroAkiraDanno/web5/tree/main/Tribute_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Tribute_page/index.html)        
 | 12  | [Survey_Form](https://github.com/pedroAkiraDanno/web5/tree/main/Survey_Form)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Survey_Form/index.html) 
 | 13  | [technical_doc_page](https://github.com/pedroAkiraDanno/web5/tree/main/technical_doc_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/technical_doc_page/index.html) 
-| 14  | [Landing_page] (https://github.com/pedroAkiraDanno/web5/tree/main/Landing_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Landing_page/index.html) 
+| 14  | [Landing_page](https://github.com/pedroAkiraDanno/web5/tree/main/Landing_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Landing_page/index.html) 
 | 15  | [Event_Page] (https://github.com/pedroAkiraDanno/web5/tree/main/Event_Page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Event_Page/index.html) 
 
 
