@@ -48,6 +48,11 @@ Cascading Style Sheets is a style sheet language used for describing the present
 **Suevey_Form** ->[Survey_Form](https://pedroakiradanno.github.io/web5/Survey_Form/index.html)
 
 
+
+**technical_doc_page** ->[technical_doc_page](https://pedroakiradanno.github.io/web5/technical_doc_page/index.html)
+
+
+
 <br/>
 
 ---
