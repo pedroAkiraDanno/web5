@@ -49,6 +49,8 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **technical_doc_page** ->[technical_doc_page](https://pedroakiradanno.github.io/web5/technical_doc_page/index.html)
 
+**Landing_page** ->[Landing_page](https://pedroakiradanno.github.io/web5/Landing_page/index.html)
+
 
 
 <br/>
@@ -70,6 +72,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 11  | [Tribute_page](https://github.com/pedroAkiraDanno/web5/tree/main/Tribute_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Tribute_page/index.html)        
 | 12  | [Survey_Form](https://github.com/pedroAkiraDanno/web5/tree/main/Survey_Form)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Survey_Form/index.html) 
 | 13  | [technical_doc_page](https://github.com/pedroAkiraDanno/web5/tree/main/technical_doc_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/technical_doc_page/index.html) 
+| 14  | [Landing_page(https://github.com/pedroAkiraDanno/web5/tree/main/Landing_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Landing_page/index.html) 
 
 
 
