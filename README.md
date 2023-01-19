@@ -47,8 +47,6 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **Suevey_Form** ->[Survey_Form](https://pedroakiradanno.github.io/web5/Survey_Form/index.html)
 
-
-
 **technical_doc_page** ->[technical_doc_page](https://pedroakiradanno.github.io/web5/technical_doc_page/index.html)
 
 
@@ -71,21 +69,12 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 10  | [IzzyPortfolio-gh-pages](https://github.com/pedroAkiraDanno/web5/tree/main/IzzyPortfolio-gh-pages)                               | [Live Demo](https://pedroakiradanno.github.io/web5/IzzyPortfolio-gh-pages/index.html)     
 | 11  | [Tribute_page](https://github.com/pedroAkiraDanno/web5/tree/main/Tribute_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Tribute_page/index.html)        
 | 12  | [Survey_Form](https://github.com/pedroAkiraDanno/web5/tree/main/Survey_Form)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Survey_Form/index.html) 
-
-| 13  | [technical_doc_page](https://github.com/pedroAkiraDanno/web5/tree/main/technical_doc_page) | [Live Demo](https://pedroakiradanno.github.io/web5/technical_doc_page/index.html) 
-
-
-
-
-
-
+| 13  | [technical_doc_page](https://github.com/pedroAkiraDanno/web5/tree/main/technical_doc_page)                               | [Live Demo](https://pedroakiradanno.github.io/web5/technical_doc_page/index.html) 
 
 
 
 
 ---
-
-
 
 
 
