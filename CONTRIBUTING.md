@@ -54,3 +54,10 @@ If you are the current maintainer of this gem:
 [1]: http://github.com/github/markup/pulls
 [r2h]: lib/github/commands/rest2html
 [r2hc]: lib/github/markups.rb#L51
+
+
+
+
+
+
+REFERENCE: https://github.com/github/markup/edit/master/CONTRIBUTING.md
