@@ -53,7 +53,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **Event_Page** ->[Event_Page](https://pedroakiradanno.github.io/web5/Event_Page/index.html)
 
-**form-input-wave** ->[Event_Page](https://pedroakiradanno.github.io/web5/form-input-wave/index.html)
+**form-input-wave** ->[form-input-wave](https://pedroakiradanno.github.io/web5/form-input-wave/index.html)
 
 **Parallax_website** ->[Parallax_website](https://pedroakiradanno.github.io/web5/Parallax_website/index.html)
 
