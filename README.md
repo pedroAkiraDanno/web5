@@ -61,9 +61,9 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **NikeWebClone** ->[NikeWebClone](https://pedroakiradanno.github.io/web5/NikeWebClone/index.html)
 
-**spacex-clone** ->[NikeWebClone](https://pedroakiradanno.github.io/web5/spacex-clone/index.html)
+**spacex-clone** ->[spaceX-clone](https://pedroakiradanno.github.io/web5/spacex-clone/index.html)
 
-**SpaceX-clone2** ->[NikeWebClone](https://pedroakiradanno.github.io/web5/SpaceX-clone2/index.html)
+**SpaceX-clone2** ->[SpaceX-clone2](https://pedroakiradanno.github.io/web5/SpaceX-clone2/index.html)
 
 
 
@@ -95,7 +95,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 18  | [page_Animation](https://github.com/pedroAkiraDanno/web5/tree/main/page_Animation)                               | [Live Demo](https://pedroakiradanno.github.io/web5/page_Animation/index.html)   
 | 19  | [NikeWebClone](https://github.com/pedroAkiraDanno/web5/tree/main/NikeWebClone)                               | [Live Demo](https://pedroakiradanno.github.io/web5/NikeWebClone/index.html)   
 | 20  | [spacex-clone](https://github.com/pedroAkiraDanno/web5/tree/main/spacex-clone)                               | [Live Demo](https://pedroakiradanno.github.io/web5/spacex-clone/index.html)   
-| 21  | [spacex-clone](https://github.com/pedroAkiraDanno/web5/tree/main/SpaceX-clone2)                               | [Live Demo](https://pedroakiradanno.github.io/web5/SpaceX-clone2/index.html)   
+| 21  | [SpaceX-clone2](https://github.com/pedroAkiraDanno/web5/tree/main/SpaceX-clone2)                               | [Live Demo](https://pedroakiradanno.github.io/web5/SpaceX-clone2/index.html)   
 
 
 
