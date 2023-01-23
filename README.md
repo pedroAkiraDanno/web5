@@ -91,7 +91,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 16  | [form-input-wave](https://github.com/pedroAkiraDanno/web5/tree/main/form-input-wave)                               | [Live Demo](https://pedroakiradanno.github.io/web5/form-input-wave/index.html)     
 | 17  | [Parallax_website](https://github.com/pedroAkiraDanno/web5/tree/main/Parallax_website)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Parallax_website/index.html)   
 | 18  | [page_Animation](https://github.com/pedroAkiraDanno/web5/tree/main/page_Animation)                               | [Live Demo](https://pedroakiradanno.github.io/web5/page_Animation/index.html)   
-| 19  | [page_Animation](https://github.com/pedroAkiraDanno/web5/tree/main/NikeWebClone)                               | [Live Demo](https://pedroakiradanno.github.io/web5/NikeWebClone/index.html)   
+| 19  | [NikeWebClone](https://github.com/pedroAkiraDanno/web5/tree/main/NikeWebClone)                               | [Live Demo](https://pedroakiradanno.github.io/web5/NikeWebClone/index.html)   
 
 
 
