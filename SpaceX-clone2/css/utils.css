@@ -1,0 +1,69 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* theming */
+::selection {
+    background-color: transparent;
+    color: rgb(114, 95, 95);
+}
+
+/* utility classes */
+.allCaps {
+    text-transform: uppercase;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.filter {
+    filter: invert();
+}
+
+.font-roboto {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.secondary-text {
+    color: gray;
+    font-size: .7rem;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.link-animation:hover {
+    animation: left-right-width 1s 1;
+    transform-origin: right;
+}
+
+.link-animation::after {
+    position: relative;
+    height: 5px;
+    width: 0;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 2;
+    background-color: white;
+    animation: inherit;
+    /* animation: left-right-width 1s infinite both; */
+    /* opacity: 0.3; */
+    display: block;
+}
+
+.animation-fill-white :hover {
+    background: white;
+}
+
+.animation-up-down {
+    animation: up-down 2s ease-in-out infinite;
+}

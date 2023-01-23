@@ -1,0 +1,51 @@
+@media screen and (max-width:1150px) {
+    .mainLogo {
+        width: 170px;
+        grid-area: logo;
+        justify-self: center;
+    }
+
+    #hidden-list {
+        top: 49px;
+    }
+
+    .hamburger-trigger {
+        grid-area: trigger;
+        justify-self: flex-end;
+        padding-right: 20px;
+    }
+
+    .hamburger-trigger>img {
+        width: 25px;
+    }
+
+    nav {
+        display: grid;
+        grid-template-areas: ". logo trigger";
+    }
+
+    .heading-primary {
+        line-height: 1;
+    }
+
+    .content {
+        margin-bottom: 0;
+    }
+
+    .sections {
+        flex-direction: column;
+        justify-content: end;
+        gap: 1rem;
+        align-items: unset;
+    }
+
+    .down-arrow {
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .down-arrow>img:nth-child(1) {
+        width: 35px;
+    }
+}

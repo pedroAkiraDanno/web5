@@ -1,0 +1,131 @@
+:root {
+    --desktop-menu-width: 390px;
+    --mobile-menu-width: 50vw;
+    --desktop-menu-padding-Y: 100px;
+    --desktop-menu-padding-X: 30px;
+}
+
+@keyframes menu-open {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: var(--mobile-menu-width);
+    }
+}
+
+@keyframes menu-close {
+    from {
+        width: var(--mobile-menu-width);
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+@keyframes desk-menu-open {
+    from {
+        width: 0;
+        padding: var(--desktop-menu-padding-Y) 0;
+    }
+
+    to {
+        width: var(--desktop-menu-width);
+        padding: var(--desktop-menu-padding-Y) var(--desktop-menu-padding-X);
+    }
+}
+
+@keyframes desk-menu-close {
+    from {
+        width: var(--desktop-menu-width);
+        padding: var(--desktop-menu-padding-Y) var(--desktop-menu-padding-X);
+    }
+
+    to {
+        width: 0;
+        padding: var(--desktop-menu-padding-Y) 0;
+    }
+}
+
+@keyframes fade {
+    from {
+        visibility: visible;
+    }
+
+    to {
+        visibility: hidden;
+    }
+}
+
+@keyframes show {
+    from {
+        visibility: hidden;
+    }
+
+    to {
+        visibility: visible;
+    }
+}
+
+@keyframes underline {
+    from {
+        border-top: 5px solid red;
+    }
+
+    to {
+        border-top: 5px dashed red;
+    }
+}
+
+@keyframes fill-white {
+    0% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(100%);
+
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes left-right-width {
+    0% {
+        /* transform: translateX(0%); */
+        width: 0%;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+        /* transform: translateX(100%); */
+    }
+}
+
+@keyframes left-right-transform {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
