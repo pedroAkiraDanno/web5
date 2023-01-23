@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown menu</title>
+    <style>
+        nav{
+            background-color:#ffffff;
+            position:fixed;
+            width:100%;
+            height: 65px;
+            line-height: 65px;
+            
+        }
+        nav .wrapper{
+           position:relative;
+            max-width: 1250px;
+            padding: 0 30px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav-link li a{
+            color:#757575;
+            text-decoration: none;
+            font-family:Helvetica;
+            font-weight: 500px;
+            font-size: 16px;
+            line-height: 1.5;
+            padding: 9px 15px;
+
+        }
+       
+        .nav-link li .underline:hover{
+            color:#757575;
+            border-bottom: 2px solid black;
+           
+        }
+       
+
+        .nav-link li{
+            list-style: none;
+           
+        }
+        .wrapper .nav-link{
+            display: inline-flex;
+        }
+        /* column css here */
+        .mega-box{
+            position:absolute;
+           width: 100%;
+            visibility: hidden;
+            
+           
+           
+        }
+
+        .mega-box .content{
+            display:flex;
+          
+          
+            
+            
+        }
+       
+        .mega-links li a{
+            padding: 0 10px;
+         color:#757575;
+         font-family: Arial, Helvetica, sans-serif;
+         line-height: 24px;
+         font-size: 14px;
+         font-weight: 400px;
+         display: block;
+           
+        }
+      
+        .nav-link li:hover .mega-box{
+           
+        visibility: visible;
+        transition:all 0.3s ease;
+        
+       }
+           
+        
+        header{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+  <nav>
+   
+      <div class="wrapper">
+      
+        
+          <!-- <div class="logo"><img src="./img/nikeLogo.png" alt=""></div> -->
+          <ul class="nav-link">
+            
+              <li>
+                  <a class="underline" href="#">New Releases</a>
+                  <div class="mega-box">
+                    <div class="content">
+                        <!-- first cloumn start -->
+                        <div class="row">
+                            <header>New & Featured</header>
+                            <ul class="mega-links">
+                                <li><a href="#">New Releases</a></li>
+                                <li><a href="#">Best Sellers</a></li>
+                                <li><a href="#">Best of Air Force</a></li>
+                                <li><a href="#">Spring Must Haves</a></li>
+                                <li><a href="#">Vacation Vibes</a></li>
+                                <li><a href="#">Celebrate Black Atheletes</a></li>
+                                <li><a href="#">New Workout Essentials</a></li>
+                                <li><a href="#">Sale-Up to 40% Off</a></li>
+                            </ul>
+                        </div>
+                        <!-- first column end -->
+                         
+                        <!-- 2nd cloumn start -->
+                         <div class="row">
+                          <header>Shoes</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Lifestyle</a></li>
+                              <li><a href="#">Running</a></li>
+                              <li><a href="#">Basketball</a></li>
+                              <li><a href="#">Jordon</a></li>
+                              <li><a href="#">Training & Gym</a></li>
+                              <li><a href="#">Soccer</a></li>
+                              <li><a href="#">Golf</a></li>
+                              <li><a href="#">Cross Country</a></li>
+                          </ul>
+                      </div>
+                      <!-- 2nd column end -->
+                      
+                      <!-- 3rd cloumn start -->
+                       <div class="row">
+                          <header>Clothing</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Tops & T-Shirts</a></li>
+                              <li><a href="#">Shorts</a></li>
+                              <li><a href="#">Hoddi & SweatShirts</a></li>
+                              <li><a href="#">Pants & Tights</a></li>
+                              <li><a href="#">Matching Sets</a></li>
+                              <li><a href="#">Jackets & Vests</a></li>
+                              <li><a href="#">Swimwear</a></li>
+                              <li><a href="#">Polos</a></li>
+                          </ul>
+                      </div>
+                      <!-- 3rd column end -->
+
+                       <!-- 4th cloumn start -->
+                       <div class="row">
+                          <header>Shop collection</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Golf</a></li>
+                              <li><a href="#">Jordon</a></li>
+                              <li><a href="#">Soccer</a></li>
+                              <li><a href="#">Running</a></li>
+                              <li><a href="#">Nike Fleece</a></li>
+                              <li><a href="#">Basketball</a></li>
+                              <li><a href="#">Tennis</a></li>
+                              <li><a href="#">NikeLab</a></li>
+                          </ul>
+                      </div>
+                      <!-- 4th column end -->
+                    </div>
+                </div>
+              
+                </li>
+              <li>
+                  <a class="underline" href="#">Men</a>
+                  <div class="mega-box">
+                      <div class="content">
+                          <!-- first cloumn start -->
+                          <div class="row">
+                              <header>New & Featured</header>
+                              <ul class="mega-links">
+                                  <li><a href="#">New Releases</a></li>
+                                  <li><a href="#">Best Sellers</a></li>
+                                  <li><a href="#">Best of Air Force</a></li>
+                                  <li><a href="#">Spring Must Haves</a></li>
+                                  <li><a href="#">Vacation Vibes</a></li>
+                                  <li><a href="#">Celebrate Black Atheletes</a></li>
+                                  <li><a href="#">New Workout Essentials</a></li>
+                                  <li><a href="#">Sale-Up to 40% Off</a></li>
+                              </ul>
+                          </div>
+                          <!-- first column end -->
+                           
+                          <!-- 2nd cloumn start -->
+                           <div class="row">
+                            <header>Shoes</header>
+                            <ul class="mega-links">
+                                <li><a href="#">Lifestyle</a></li>
+                                <li><a href="#">Running</a></li>
+                                <li><a href="#">Basketball</a></li>
+                                <li><a href="#">Jordon</a></li>
+                                <li><a href="#">Training & Gym</a></li>
+                                <li><a href="#">Soccer</a></li>
+                                <li><a href="#">Golf</a></li>
+                                <li><a href="#">Cross Country</a></li>
+                            </ul>
+                        </div>
+                        <!-- 2nd column end -->
+                        
+                        <!-- 3rd cloumn start -->
+                         <div class="row">
+                            <header>Clothing</header>
+                            <ul class="mega-links">
+                                <li><a href="#">Tops & T-Shirts</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Hoddi & SweatShirts</a></li>
+                                <li><a href="#">Pants & Tights</a></li>
+                                <li><a href="#">Matching Sets</a></li>
+                                <li><a href="#">Jackets & Vests</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Polos</a></li>
+                            </ul>
+                        </div>
+                        <!-- 3rd column end -->
+
+                         <!-- 4th cloumn start -->
+                         <div class="row">
+                            <header>Shop collection</header>
+                            <ul class="mega-links">
+                                <li><a href="#">Golf</a></li>
+                                <li><a href="#">Jordon</a></li>
+                                <li><a href="#">Soccer</a></li>
+                                <li><a href="#">Running</a></li>
+                                <li><a href="#">Nike Fleece</a></li>
+                                <li><a href="#">Basketball</a></li>
+                                <li><a href="#">Tennis</a></li>
+                                <li><a href="#">NikeLab</a></li>
+                            </ul>
+                        </div>
+                        <!-- 4th column end -->
+                      </div>
+                  </div>
+                
+                </li>
+              <li>
+                  <a  class="underline"href="#">women</a>
+                  <div class="mega-box">
+                    <div class="content">
+                        <!-- first cloumn start -->
+                        <div class="row">
+                            <header>New & Featured</header>
+                            <ul class="mega-links">
+                                <li><a href="#">New Releases</a></li>
+                                <li><a href="#">Best Sellers</a></li>
+                                <li><a href="#">Best of Air Force</a></li>
+                                <li><a href="#">Spring Must Haves</a></li>
+                                <li><a href="#">Vacation Vibes</a></li>
+                                <li><a href="#">Celebrate Black Atheletes</a></li>
+                                <li><a href="#">New Workout Essentials</a></li>
+                                <li><a href="#">Sale-Up to 40% Off</a></li>
+                            </ul>
+                        </div>
+                        <!-- first column end -->
+                         
+                        <!-- 2nd cloumn start -->
+                         <div class="row">
+                          <header>Shoes</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Lifestyle</a></li>
+                              <li><a href="#">Running</a></li>
+                              <li><a href="#">Basketball</a></li>
+                              <li><a href="#">Jordon</a></li>
+                              <li><a href="#">Training & Gym</a></li>
+                              <li><a href="#">Soccer</a></li>
+                              <li><a href="#">Golf</a></li>
+                              <li><a href="#">Cross Country</a></li>
+                          </ul>
+                      </div>
+                      <!-- 2nd column end -->
+                      
+                      <!-- 3rd cloumn start -->
+                       <div class="row">
+                          <header>Clothing</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Tops & T-Shirts</a></li>
+                              <li><a href="#">Shorts</a></li>
+                              <li><a href="#">Hoddi & SweatShirts</a></li>
+                              <li><a href="#">Pants & Tights</a></li>
+                              <li><a href="#">Matching Sets</a></li>
+                              <li><a href="#">Jackets & Vests</a></li>
+                              <li><a href="#">Swimwear</a></li>
+                              <li><a href="#">Polos</a></li>
+                          </ul>
+                      </div>
+                      <!-- 3rd column end -->
+
+                       <!-- 4th cloumn start -->
+                       <div class="row">
+                          <header>Shop collection</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Golf</a></li>
+                              <li><a href="#">Jordon</a></li>
+                              <li><a href="#">Soccer</a></li>
+                              <li><a href="#">Running</a></li>
+                              <li><a href="#">Nike Fleece</a></li>
+                              <li><a href="#">Basketball</a></li>
+                              <li><a href="#">Tennis</a></li>
+                              <li><a href="#">NikeLab</a></li>
+                          </ul>
+                      </div>
+                      <!-- 4th column end -->
+                    </div>
+                </div>
+              
+            </li>
+              <li>
+                  <a class="underline" href="#">kids</a>
+                  <div class="mega-box">
+                    <div class="content">
+                        <!-- first cloumn start -->
+                        <div class="row">
+                            <header>New & Featured</header>
+                            <ul class="mega-links">
+                                <li><a href="#">New Releases</a></li>
+                                <li><a href="#">Best Sellers</a></li>
+                                <li><a href="#">Best of Air Force</a></li>
+                                <li><a href="#">Spring Must Haves</a></li>
+                                <li><a href="#">Vacation Vibes</a></li>
+                                <li><a href="#">Celebrate Black Atheletes</a></li>
+                                <li><a href="#">New Workout Essentials</a></li>
+                                <li><a href="#">Sale-Up to 40% Off</a></li>
+                            </ul>
+                        </div>
+                        <!-- first column end -->
+                         
+                        <!-- 2nd cloumn start -->
+                         <div class="row">
+                          <header>Shoes</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Lifestyle</a></li>
+                              <li><a href="#">Running</a></li>
+                              <li><a href="#">Basketball</a></li>
+                              <li><a href="#">Jordon</a></li>
+                              <li><a href="#">Training & Gym</a></li>
+                              <li><a href="#">Soccer</a></li>
+                              <li><a href="#">Golf</a></li>
+                              <li><a href="#">Cross Country</a></li>
+                          </ul>
+                      </div>
+                      <!-- 2nd column end -->
+                      
+                      <!-- 3rd cloumn start -->
+                       <div class="row">
+                          <header>Clothing</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Tops & T-Shirts</a></li>
+                              <li><a href="#">Shorts</a></li>
+                              <li><a href="#">Hoddi & SweatShirts</a></li>
+                              <li><a href="#">Pants & Tights</a></li>
+                              <li><a href="#">Matching Sets</a></li>
+                              <li><a href="#">Jackets & Vests</a></li>
+                              <li><a href="#">Swimwear</a></li>
+                              <li><a href="#">Polos</a></li>
+                          </ul>
+                      </div>
+                      <!-- 3rd column end -->
+
+                       <!-- 4th cloumn start -->
+                       <div class="row">
+                          <header>Shop collection</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Golf</a></li>
+                              <li><a href="#">Jordon</a></li>
+                              <li><a href="#">Soccer</a></li>
+                              <li><a href="#">Running</a></li>
+                              <li><a href="#">Nike Fleece</a></li>
+                              <li><a href="#">Basketball</a></li>
+                              <li><a href="#">Tennis</a></li>
+                              <li><a href="#">NikeLab</a></li>
+                          </ul>
+                      </div>
+                      <!-- 4th column end -->
+                    </div>
+                </div>
+              
+                
+                </li>
+              <li>
+                  <a  class="underline"href="#">Sale</a>
+                  <div class="mega-box">
+                    <div class="content">
+                        <!-- first cloumn start -->
+                        <div class="row">
+                            <header>New & Featured</header>
+                            <ul class="mega-links">
+                                <li><a href="#">New Releases</a></li>
+                                <li><a href="#">Best Sellers</a></li>
+                                <li><a href="#">Best of Air Force</a></li>
+                                <li><a href="#">Spring Must Haves</a></li>
+                                <li><a href="#">Vacation Vibes</a></li>
+                                <li><a href="#">Celebrate Black Atheletes</a></li>
+                                <li><a href="#">New Workout Essentials</a></li>
+                                <li><a href="#">Sale-Up to 40% Off</a></li>
+                            </ul>
+                        </div>
+                        <!-- first column end -->
+                         
+                        <!-- 2nd cloumn start -->
+                         <div class="row">
+                          <header>Shoes</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Lifestyle</a></li>
+                              <li><a href="#">Running</a></li>
+                              <li><a href="#">Basketball</a></li>
+                              <li><a href="#">Jordon</a></li>
+                              <li><a href="#">Training & Gym</a></li>
+                              <li><a href="#">Soccer</a></li>
+                              <li><a href="#">Golf</a></li>
+                              <li><a href="#">Cross Country</a></li>
+                          </ul>
+                      </div>
+                      <!-- 2nd column end -->
+                      
+                      <!-- 3rd cloumn start -->
+                       <div class="row">
+                          <header>Clothing</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Tops & T-Shirts</a></li>
+                              <li><a href="#">Shorts</a></li>
+                              <li><a href="#">Hoddi & SweatShirts</a></li>
+                              <li><a href="#">Pants & Tights</a></li>
+                              <li><a href="#">Matching Sets</a></li>
+                              <li><a href="#">Jackets & Vests</a></li>
+                              <li><a href="#">Swimwear</a></li>
+                              <li><a href="#">Polos</a></li>
+                          </ul>
+                      </div>
+                      <!-- 3rd column end -->
+
+                       <!-- 4th cloumn start -->
+                       <div class="row">
+                          <header>Shop collection</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Golf</a></li>
+                              <li><a href="#">Jordon</a></li>
+                              <li><a href="#">Soccer</a></li>
+                              <li><a href="#">Running</a></li>
+                              <li><a href="#">Nike Fleece</a></li>
+                              <li><a href="#">Basketball</a></li>
+                              <li><a href="#">Tennis</a></li>
+                              <li><a href="#">NikeLab</a></li>
+                          </ul>
+                      </div>
+                      <!-- 4th column end -->
+                    </div>
+                </div>
+              
+                
+                </li>
+          </ul>
+
+      </div>
+
+  </nav>  
+
+  
+</body>
+</html>

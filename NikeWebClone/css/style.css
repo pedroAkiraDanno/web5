@@ -1,0 +1,275 @@
+*{
+    margin:0;
+    padding:0;
+}
+ /* first nav css starts here */
+ .converse-logo{
+    height: 30px;
+    width: 25px;
+    margin-left: 30px;
+   
+    
+  }
+.nav-font{
+font-family: Helvetica;
+font-style: normal;
+font-weight: 500px;
+font-size: 12px;
+line-height: 14px;
+color: #757575;
+}
+.nav-font:hover{
+color: #757575;
+}
+ .nav-font-dropdown{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #757575;
+ }
+ .help{
+     margin:0 0 20px 20px;
+ }
+/* first nav css ends here */
+.nike-logo2{
+    margin-left: 30px;
+    }
+.text-align{
+    margin:0 auto;
+}
+.color{
+    background-color:#ffffff;
+   
+}
+.font-nav2{
+  
+    font-family:Helvetica;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.button{
+  height: 40px;
+  width: 50px;
+   
+}
+.button-size{
+    background-color: #f5f5f5;
+    width:150px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 10px;
+} 
+.button-size:hover{
+    background-color: #f5f5f5;
+    width:150px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 10px;  
+    background-color: #e5e5e5;
+}
+    .search-icon{
+       height: 20px;
+       width: 20px;
+       margin-right: 100px;
+   }
+.heart-size{
+    height: 30px;
+    width: 30px;
+    margin-right:20px;
+    border-radius: 15px;
+}
+ .heart-size:hover{
+    height: 30px;
+    width: 30px;
+    margin-right:20px;
+    background-color:#e5e5e5;
+}
+.cart-size{
+    height: 30px;
+    width: 30px;
+   border-radius: 15px;
+    margin-right: 20px;
+    
+    
+}
+.cart-size:hover{
+   
+    height: 30px;
+    width: 30px;
+    background-color: #e5e5e5;
+    margin-right: 20px;
+   
+    
+}
+/* carosel custom css starts here */
+    .carousel-size{
+        height: 60px;
+        background-color: #f5f5f5;
+    }
+    .carousel-heading{
+        text-align: center;
+        margin-top: 20px;
+        font-family:Helvetica;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #111111;
+    }
+    .join-now{
+        color: #111111;
+        font-size: 12px;
+        font-family:Helvetica;
+    }
+    .Shop-All-Our-Markdown{
+        color:#111111;
+        font-size: 12px;
+    }
+    
+ /* carosel custom css ends here */
+ /* first hero image custom css starts */
+ .card-container{
+     display: flex;
+     height: 740px;
+     width: 1425px;
+     border: none;
+     margin: 0 auto;
+ }
+        .tag-line-container{
+         margin-top: 500px;
+           
+        }
+       .cart-heading{
+        margin-left: 45px;
+        margin-bottom: 20px;
+        font-family:Helvetica;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: 500px;
+        color: #111111;
+       }
+       
+        
+ /* first hero image custom css starts */
+ /* first footer css  Starts here */
+.first-footer-heading {
+        font-family:Helvetica;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #111111;
+        font-weight: 500px;
+ }
+ .footer-content a{
+     text-decoration: none;
+     font-family:Helvetica;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #111111;
+        font-weight: 500px;
+       
+ }
+.footer-main{
+    display: flex;
+   justify-content: center;
+ 
+  
+   
+}
+.footer-content{
+    
+    margin-right: 170px;
+}
+.first-footer-heading{
+    color:#111111;
+    margin-bottom: 40px;
+}
+/* First footer css ends here */
+/* second footer css starts here */
+    .footer-main2{
+        display:flex;
+        background-color: #111111;
+    }
+    .second-footer-heading {
+        font-family:Helvetica;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+        font-weight: 400px;
+       
+    }
+    .second-footer-heading:hover{
+        color:#ffffff;
+    }
+   
+    .second-footer-content a{
+     text-decoration: none;
+     font-family:Helvetica;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 24px;
+        
+        font-weight: 400px;
+       
+    }
+    .second-footer-content{
+        margin:40px 100px 0 100px;
+    }
+    .footertext-color{
+        color:#757575;
+    }
+    .footertext-color:hover{
+        color:#ffffff;
+    }
+   .socialmedia-icon{
+       margin: 40px 0 0 350px;
+       
+   }
+   .fa{
+    background-color: #757575;
+    color: #111111;
+    padding:10px;
+    margin: 10px;
+    border-radius: 100%;
+    text-decoration: none;
+   }
+   .fa:hover{
+       background-color: #ffffff;
+       color:#111111;
+   }
+.fas{
+color:white;
+}
+.map-copy-wright{
+background-color: #111111;
+color:#757575;
+display:flex;
+justify-content:flex-end;
+}
+.copyWrite-content{
+margin-left:80px;
+}
+.united-states{
+color:#ffffff;
+margin:10px
+}
+.flex-item{
+margin:10px;
+}
+.flex-item p, span{
+        font-family:Helvetica;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 24px;
+        
+        font-weight: 400px;
+}
+.flex-item p:hover{
+color:#ffffff
+}
+/* second footer ends here */
