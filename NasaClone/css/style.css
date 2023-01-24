@@ -1,0 +1,231 @@
+/* 
+* Observações:
+- Esse projeto apenas tem o intuito de estudo, sem quaisquer fins lucrativos;
+- Toda parte visual aqui criada foi exclusivamente feita por EmanuelDms
+*/
+
+*{
+  font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.clear{
+  clear: both;
+}
+
+#warning{
+  padding: 8px;
+  margin: 10px auto;
+  font-size: 17px;
+  font-weight: 700;
+  width: 1340px;
+  background-color: #fc3d21;
+}
+
+/* == HEADER == */
+header{
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background: rgb(37, 37, 37) url('../assets/img/bgcolor.jpg') no-repeat;
+  height: 124px;
+  width: 1366px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* border: 4px solid red; */
+}
+
+/* Colocando espaçamentos semelhantes ao do site oficial */
+#logo{
+  float: left;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+  /* == NAVBAR == */
+  nav {
+    position: relative;
+    right: 30px;
+    padding: 10px;
+  }
+    /* == utilities == */
+    #utilities{
+      float: right;
+      position: relative;
+      bottom: 100px;
+      right: 20px;
+    }
+
+    #utilities input{
+      padding: 8px;
+      background: #555555c9;
+      border: none;
+      border-radius: 1px;
+    }
+
+    #utilities #search{
+      position: relative;
+      right: 25px;
+      color: white;
+      cursor: pointer;
+    }
+
+    #utilities #share{
+      position: relative;
+      right: 15px;
+      color: white;
+      cursor: pointer;
+    }
+    /* /== utilities == */
+
+/*   #navOne{
+    border: 1px solid blue;
+  } */
+
+  #navOne a{
+    font-size: 21px;
+    margin: 0 -2px;
+    padding: 10px 15px;
+  }
+
+  #navOne > a:hover{
+    background: #0b3d91;
+  }
+
+  #navOne > hr{
+    display: inline;
+    background: #555555c9;
+    border: 1px solid #555555c9;
+  }
+
+  #navTwo{
+    /* border: 2px solid lawngreen; */
+    margin-top: 15px;
+  }
+
+  #navTwo > a{
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 0 -5px;
+    background: #555555;
+    /* padding: 0 15px; */
+  }
+
+  #navTwo > hr{
+    background: #8a8a8a;
+    border: 1.5px solid #8a8a8a;
+    display: inline;
+  }
+  
+
+  #navTwo > a:hover{
+    background: #858585;
+  }
+  /* //= NAVBAR == */
+/* //== //HEADER == */
+
+/* == MAIN CONTENT == */
+.newsTitle, p{
+  position: relative;
+  bottom: 50px;
+  width: 655px;
+  padding: 10px;
+  color: black;
+  background: rgb(255, 255, 255, 0.8);
+}
+main{
+  text-align: justify;
+  width: 1366px;
+  margin: 0 auto;
+}
+
+  /* == MAIN NEWS == */
+  #rightNews{
+    float: left;
+  }
+
+  #supNews{
+    margin-bottom: 10px;
+  }
+
+  /* = FIRST = */
+  main #first section img{
+    width: 674.5px;
+    height: 615px;
+  }
+
+  main #first{
+    margin-right: 10px;
+    float: left;
+  }
+  /* /= FIRST = */
+
+  /* = SECOND = */
+  main #second section img{
+    width: 329.75px;
+    height: 300px;
+  }
+
+  main #second{
+    margin: 0;
+    float: left;
+  }
+  /* /= SECOND = */
+
+  /* = THIRD = */
+  main #third{
+    background-color: #39719e;
+    font-size: 14px;
+    float: right;
+    width: 319.75px;
+    height: 300px;
+  }
+  main #third section{
+    padding: 10px;
+  }
+
+  main #third a{
+    display: inline-block;
+  }
+  /* = THIRD = */
+
+  main #box-header{
+    padding: 0 3px;
+  }
+  /* /= THIRD = */
+
+  /* = FOURTH = */
+  main #fourth{
+    clear: both;
+  }
+  
+  main #fourth section img{
+    width: 674.5px;
+    height: 300px;
+  }
+  /* /= FOURTH = */
+
+  
+  
+  /* /== MAIN NEWS == */
+
+/* /== MAIN CONTENT == */
+
+/* == FOOTER == */
+footer{
+  /* border: 1px solid palevioletred; */
+  text-align: center;
+  margin: 0 auto;
+}
+/* /== FOOTER == */
