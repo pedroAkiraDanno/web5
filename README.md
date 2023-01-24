@@ -69,7 +69,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **Apple.com-Clone** ->[Apple.com-Clone](https://pedroakiradanno.github.io/web5/Apple.com-Clone/index.html)
 
-**Google** ->[Apple.com-Clone](https://pedroakiradanno.github.io/web5/Google/index.html)
+**Google** ->[Google](https://pedroakiradanno.github.io/web5/Google/index.html)
 
 
 
