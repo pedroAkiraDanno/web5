@@ -69,6 +69,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **Apple.com-Clone** ->[Apple.com-Clone](https://pedroakiradanno.github.io/web5/Apple.com-Clone/index.html)
 
+**Google** ->[Apple.com-Clone](https://pedroakiradanno.github.io/web5/Google/index.html)
 
 
 
@@ -102,6 +103,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 21  | [SpaceX-clone2](https://github.com/pedroAkiraDanno/web5/tree/main/SpaceX-clone2)                               | [Live Demo](https://pedroakiradanno.github.io/web5/SpaceX-clone2/index.html)   
 | 22  | [NasaClone](https://github.com/pedroAkiraDanno/web5/tree/main/NasaClone)                               | [Live Demo](https://pedroakiradanno.github.io/web5/NasaClone/index.html)   
 | 23  | [Apple.com-Clone](https://github.com/pedroAkiraDanno/web5/tree/main/Apple.com-Clone)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Apple.com-Clone/index.html)   
+| 24  | [Google](https://github.com/pedroAkiraDanno/web5/tree/main/Google)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Google/index.html)   
 
 
 
