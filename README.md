@@ -73,7 +73,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **NASA_Clone2** ->[NASA_Clone2](https://pedroakiradanno.github.io/web5/NASA_Clone2/index.html)
 
-**NASA-landingpage** ->[NASA_Clone2](https://pedroakiradanno.github.io/web5/NASA-landingpage/index.html)
+**NASA-landingpage** ->[NASA-landingpage](https://pedroakiradanno.github.io/web5/NASA-landingpage/Finished-website/index.html)
 
 
 
@@ -108,8 +108,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 23  | [Apple.com-Clone](https://github.com/pedroAkiraDanno/web5/tree/main/Apple.com-Clone)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Apple.com-Clone/index.html)   
 | 24  | [Google](https://github.com/pedroAkiraDanno/web5/tree/main/Google)                               | [Live Demo](https://pedroakiradanno.github.io/web5/Google/index.html)   
 | 25  | [NASA_Clone2](https://github.com/pedroAkiraDanno/web5/tree/main/NASA_Clone2)                               | [Live Demo](https://pedroakiradanno.github.io/web5/NASA_Clone2/index.html)   
-| 26  | [NASA-landingpage](https://github.com/pedroAkiraDanno/web5/tree/main/NASA-landingpage)                               | [Live Demo](https://pedroakiradanno.github.io/web5/NASA-landingpage/index.html)   
-
+| 26  | [NASA-landingpage](https://github.com/pedroAkiraDanno/web5/tree/main/NASA-landingpage)                               | [Live Demo](https://pedroakiradanno.github.io/web5/NASA-landingpage/Finished-website/index.html)   
 
 
 
