@@ -1,0 +1,20 @@
+/* 
+Colors:
+- #5d7fb9 lightblue
+- #15418c Blue
+- rgba(93, 127, 185, 0.9) -bg color for cards
+- #333 and #555 for grey colors
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', "Helvetica", sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
