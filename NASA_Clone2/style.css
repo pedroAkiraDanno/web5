@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./images/bg.jpg);
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+}
+table {
+  width: 1368px;
+  margin: 20px auto;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+a p {
+  line-height: 19px;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-right: 4px;
+}
+#nasa_event{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+th,
+td {
+  border: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h3 {
+  color: #000000;
+  background-color: #ffffffb7;
+  padding: 5px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+h4 {
+  color: whitesmoke;
+  background-color: #7d92b8;
+  position: absolute;
+  /* top: 0; */
+  bottom: 68px;
+  padding: 5px;
+  font-size: 18px;
+}
+.box1 {
+  width: 684px;
+  height: 616px;
+  /* background-color: blue; */
+  background: url(./images/1.png);
+  position: relative;
+}
+.box2 {
+  width: 342px;
+  height: 302px;
+  /* background-color: rgb(121, 121, 206); */
+  background: url(./images/2.jpg);
+  position: relative;
+}
+.box3 {
+  width: 342px;
+  height: 302px;
+  background-color: #39719e;
+  position: relative;
+}
+.box4 {
+  width: 684px;
+  height: 302px;
+  /* background-color: orange; */
+  background: url(./images/4.jpg);
+  position: relative;
+}
+.box5 {
+  width: 342px;
+  height: 302px;
+  /* background-color: rgb(144, 206, 165); */
+  background: url(./images/5.jpg);
+  position: relative;
+}
+.box6 {
+  width: 684px;
+  height: 302px;
+  /* background-color: rgb(187, 206, 144); */
+  background: url(./images/6.jpg);
+  position: relative;
+}
+.box7 {
+  width: 342px;
+  height: 302px;
+  /* background-color: rgb(144, 192, 206); */
+  background: url(./images/7.jpg);
+  position: relative;
+}
+.box8 {
+  width: 342px;
+  height: 302px;
+  /* background-color: rgb(206, 144, 196); */
+  background: url(./images/8.jpg);
+  position: relative;
+}
+.box9 {
+  width: 342px;
+  height: 302px;
+  /* background-color: rgb(197, 32, 170); */
+  background: url(./images/9.jpg);
+  position: relative;
+}
+.box10 {
+  width: 342px;
+  height: 302px;
+  /* background-color: rgb(185, 28, 75); */
+  background: url(./images/10.jpg);
+  position: relative;
+}
+.box11 {
+  width: 342px;
+  height: 302px;
+  /* background-color: rgb(193, 223, 27); */
+  background: url(./images/11.jpg);
+  position: relative;
+}
