@@ -23,59 +23,59 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 ## Acess each project with browser (completed)
 
-**devaria** -> [devaria](https://pedroakiradanno.github.io/web5/srv/devaria/index.html)
+**devaria** -> [devaria](https://pedroakiradanno.github.io/web5/src/devaria/index.html)
 
-**one-page-project** -> [one-page-project](https://pedroakiradanno.github.io/web5/srv/one-page-project/index.html)
+**one-page-project** -> [one-page-project](https://pedroakiradanno.github.io/web5/src/one-page-project/index.html)
 
-**Forms_Ballerini** -> [formulario](https://pedroakiradanno.github.io/web5/srv/Forms_Ballerini/formulario.html)
+**Forms_Ballerini** -> [formulario](https://pedroakiradanno.github.io/web5/src/Forms_Ballerini/formulario.html)
 
-**Forms_Kich** -> [Forms_Kich](https://pedroakiradanno.github.io/web5/srv/Forms_Kich/pro/index.html)
+**Forms_Kich** -> [Forms_Kich](https://pedroakiradanno.github.io/web5/src/Forms_Kich/pro/index.html)
 
-**02-HTML-Fundamentals** ->[Fundamentals2](https://pedroakiradanno.github.io/web5/srv/02-HTML-Fundamentals/index.html)
+**02-HTML-Fundamentals** ->[Fundamentals2](https://pedroakiradanno.github.io/web5/src/02-HTML-Fundamentals/index.html)
 
-**Netflix-Login** ->[Netflix-Login](https://pedroakiradanno.github.io/web5/srv/login/Login/index.html)
+**Netflix-Login** ->[Netflix-Login](https://pedroakiradanno.github.io/web5/src/login/Login/index.html)
 
-**dark_light_form** ->[dark_light_form](https://pedroakiradanno.github.io/web5/srv/dark_light_form/index.html)
+**dark_light_form** ->[dark_light_form](https://pedroakiradanno.github.io/web5/src/dark_light_form/index.html)
 
-**netflix-clone** ->[netflix-clone-master](https://pedroakiradanno.github.io/web5/srv/netflix-clone/index.html)
+**netflix-clone** ->[netflix-clone-master](https://pedroakiradanno.github.io/web5/src/netflix-clone/index.html)
 
-**resumetemplate-gh-pages** ->[resumetemplate-gh-pages](https://pedroakiradanno.github.io/web5/srv/resumetemplate-gh-pages/index.html)
+**resumetemplate-gh-pages** ->[resumetemplate-gh-pages](https://pedroakiradanno.github.io/web5/src/resumetemplate-gh-pages/index.html)
 
-**IzzyPortfolio-gh-pages** ->[IzzyPortfolio-gh-pages](https://pedroakiradanno.github.io/web5/srv/IzzyPortfolio-gh-pages/index.html)
+**IzzyPortfolio-gh-pages** ->[IzzyPortfolio-gh-pages](https://pedroakiradanno.github.io/web5/src/IzzyPortfolio-gh-pages/index.html)
 
-**Tribute_page** ->[Tribute_page](https://pedroakiradanno.github.io/web5/srv/Tribute_page/index.html)
+**Tribute_page** ->[Tribute_page](https://pedroakiradanno.github.io/web5/src/Tribute_page/index.html)
 
-**Suevey_Form** ->[Survey_Form](https://pedroakiradanno.github.io/web5/srv/Survey_Form/index.html)
+**Suevey_Form** ->[Survey_Form](https://pedroakiradanno.github.io/web5/src/Survey_Form/index.html)
 
-**technical_doc_page** ->[technical_doc_page](https://pedroakiradanno.github.io/web5/srv/technical_doc_page/index.html)
+**technical_doc_page** ->[technical_doc_page](https://pedroakiradanno.github.io/web5/src/technical_doc_page/index.html)
 
-**Landing_page** ->[Landing_page](https://pedroakiradanno.github.io/web5/srv/Landing_page/index.html)
+**Landing_page** ->[Landing_page](https://pedroakiradanno.github.io/web5/src/Landing_page/index.html)
 
-**Event_Page** ->[Event_Page](https://pedroakiradanno.github.io/web5/srv/Event_Page/index.html)
+**Event_Page** ->[Event_Page](https://pedroakiradanno.github.io/web5/src/Event_Page/index.html)
 
-**form-input-wave** ->[form-input-wave](https://pedroakiradanno.github.io/web5/srv/form-input-wave/index.html)
+**form-input-wave** ->[form-input-wave](https://pedroakiradanno.github.io/web5/src/form-input-wave/index.html)
 
-**Parallax_website** ->[Parallax_website](https://pedroakiradanno.github.io/web5/srv/Parallax_website/index.html)
+**Parallax_website** ->[Parallax_website](https://pedroakiradanno.github.io/web5/src/Parallax_website/index.html)
 
-**page_Animation** ->[page_Animation](https://pedroakiradanno.github.io/web5/srv/page_Animation/index.html)
+**page_Animation** ->[page_Animation](https://pedroakiradanno.github.io/web5/src/page_Animation/index.html)
 
-**NikeWebClone** ->[NikeWebClone](https://pedroakiradanno.github.io/web5/srv/NikeWebClone/index.html)
+**NikeWebClone** ->[NikeWebClone](https://pedroakiradanno.github.io/web5/src/NikeWebClone/index.html)
 
-**spacex-clone** ->[spaceX-clone](https://pedroakiradanno.github.io/web5/srv/spacex-clone/index.html)
+**spacex-clone** ->[spaceX-clone](https://pedroakiradanno.github.io/web5/src/spacex-clone/index.html)
 
-**SpaceX-clone2** ->[SpaceX-clone2](https://pedroakiradanno.github.io/web5/srv/SpaceX-clone2/index.html)
+**SpaceX-clone2** ->[SpaceX-clone2](https://pedroakiradanno.github.io/web5/src/SpaceX-clone2/index.html)
 
-**NasaClone** ->[NasaClone](https://pedroakiradanno.github.io/web5/srv/NasaClone/index.html)
+**NasaClone** ->[NasaClone](https://pedroakiradanno.github.io/web5/src/NasaClone/index.html)
 
-**Apple.com-Clone** ->[Apple.com-Clone](https://pedroakiradanno.github.io/web5/srv/Apple.com-Clone/index.html)
+**Apple.com-Clone** ->[Apple.com-Clone](https://pedroakiradanno.github.io/web5/src/Apple.com-Clone/index.html)
 
-**Google** ->[Google](https://pedroakiradanno.github.io/web5/srv/Google/index.html)
+**Google** ->[Google](https://pedroakiradanno.github.io/web5/src/Google/index.html)
 
-**NASA_Clone2** ->[NASA_Clone2](https://pedroakiradanno.github.io/web5/srv/NASA_Clone2/index.html)
+**NASA_Clone2** ->[NASA_Clone2](https://pedroakiradanno.github.io/web5/src/NASA_Clone2/index.html)
 
-**NASA-landingpage** ->[NASA-landingpage](https://pedroakiradanno.github.io/web5/srv/NASA-landingpage/Finished-website/index.html)
+**NASA-landingpage** ->[NASA-landingpage](https://pedroakiradanno.github.io/web5/src/NASA-landingpage/Finished-website/index.html)
 
-**Nfirebasecontact** ->[firebasecontact](https://pedroakiradanno.github.io/web5/srv/NASA-landingpage/firebasecontact/index.html)
+**Nfirebasecontact** ->[firebasecontact](https://pedroakiradanno.github.io/web5/src/NASA-landingpage/firebasecontact/index.html)
 
 <br/>
 
@@ -83,33 +83,33 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 |  #  | Project                                                                                                  | Live Demo                                                                                            |
 | :-: | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| 01  | [devaria](https://github.com/pedroAkiraDanno/web5/srv/tree/main/devaria)                                 | [Live Demo](https://pedroakiradanno.github.io/web5/srv/devaria/index.html)                           |
-| 02  | [one-page-project](https://github.com/pedroAkiraDanno/web5/srv/tree/main/one-page-project)               | [Live Demo](https://pedroakiradanno.github.io/web5/srv/one-page-project/index.html)                  |
-| 03  | [Forms_Ballerini](https://github.com/pedroAkiraDanno/web5/srv/tree/main/Forms_Ballerini)                 | [Live Demo](https://pedroakiradanno.github.io/web5/srv/Forms_Ballerini/formulario.html)              |
-| 04  | [Forms_Kich](https://github.com/pedroAkiraDanno/web5/srv/tree/main/Forms_Kich)                           | [Live Demo](https://pedroakiradanno.github.io/web5/srv/Forms_Kich/pro/index.html)                    |
-| 05  | [02-HTML-Fundamentals](https://github.com/pedroAkiraDanno/web5/srv/tree/main/02-HTML-Fundamentals)       | [Live Demo](https://pedroakiradanno.github.io/web5/srv/02-HTML-Fundamentals/index.html)              |
-| 06  | [Netflix-Login](https://github.com/pedroAkiraDanno/web5/srv/tree/main/login/Login)                       | [Live Demo](https://pedroakiradanno.github.io/web5/srv/login/Login/index.html)                       |
-| 07  | [dark_light_form](https://github.com/pedroAkiraDanno/web5/srv/tree/main/dark_light_form)                 | [Live Demo](https://pedroakiradanno.github.io/web5/srv/dark_light_form/index.html)                   |
-| 08  | [netflix-clone](https://github.com/pedroAkiraDanno/web5/srv/tree/main/netflix-clone)                     | [Live Demo](https://pedroakiradanno.github.io/web5/srv/netflix-clone/index.html)                     |
-| 09  | [resumetemplate-gh-pages](https://github.com/pedroAkiraDanno/web5/srv/tree/main/resumetemplate-gh-pages) | [Live Demo](https://pedroakiradanno.github.io/web5/srv/resumetemplate-gh-pages/index.html)           |
-| 10  | [IzzyPortfolio-gh-pages](https://github.com/pedroAkiraDanno/web5/srv/tree/main/IzzyPortfolio-gh-pages)   | [Live Demo](https://pedroakiradanno.github.io/web5/srv/IzzyPortfolio-gh-pages/index.html)            |
-| 11  | [Tribute_page](https://github.com/pedroAkiraDanno/web5/srv/tree/main/Tribute_page)                       | [Live Demo](https://pedroakiradanno.github.io/web5/srv/Tribute_page/index.html)                      |
-| 12  | [Survey_Form](https://github.com/pedroAkiraDanno/web5/srv/tree/main/Survey_Form)                         | [Live Demo](https://pedroakiradanno.github.io/web5/srv/Survey_Form/index.html)                       |
-| 13  | [technical_doc_page](https://github.com/pedroAkiraDanno/web5/srv/tree/main/technical_doc_page)           | [Live Demo](https://pedroakiradanno.github.io/web5/srv/technical_doc_page/index.html)                |
-| 14  | [Landing_page](https://github.com/pedroAkiraDanno/web5/srv/tree/main/Landing_page)                       | [Live Demo](https://pedroakiradanno.github.io/web5/srv/Landing_page/index.html)                      |
-| 15  | [Event_Page](https://github.com/pedroAkiraDanno/web5/srv/tree/main/Event_Page)                           | [Live Demo](https://pedroakiradanno.github.io/web5/srv/Event_Page/index.html)                        |
-| 16  | [form-input-wave](https://github.com/pedroAkiraDanno/web5/srv/tree/main/form-input-wave)                 | [Live Demo](https://pedroakiradanno.github.io/web5/srv/form-input-wave/index.html)                   |
-| 17  | [Parallax_website](https://github.com/pedroAkiraDanno/web5/srv/tree/main/Parallax_website)               | [Live Demo](https://pedroakiradanno.github.io/web5/srv/Parallax_website/index.html)                  |
-| 18  | [page_Animation](https://github.com/pedroAkiraDanno/web5/srv/tree/main/page_Animation)                   | [Live Demo](https://pedroakiradanno.github.io/web5/srv/page_Animation/index.html)                    |
-| 19  | [NikeWebClone](https://github.com/pedroAkiraDanno/web5/srv/tree/main/NikeWebClone)                       | [Live Demo](https://pedroakiradanno.github.io/web5/srv/NikeWebClone/index.html)                      |
-| 20  | [spacex-clone](https://github.com/pedroAkiraDanno/web5/srv/tree/main/spacex-clone)                       | [Live Demo](https://pedroakiradanno.github.io/web5/srv/spacex-clone/index.html)                      |
-| 21  | [SpaceX-clone2](https://github.com/pedroAkiraDanno/web5/srv/tree/main/SpaceX-clone2)                     | [Live Demo](https://pedroakiradanno.github.io/web5/srv/SpaceX-clone2/index.html)                     |
-| 22  | [NasaClone](https://github.com/pedroAkiraDanno/web5/srv/tree/main/NasaClone)                             | [Live Demo](https://pedroakiradanno.github.io/web5/srv/NasaClone/index.html)                         |
-| 23  | [Apple.com-Clone](https://github.com/pedroAkiraDanno/web5/srv/tree/main/Apple.com-Clone)                 | [Live Demo](https://pedroakiradanno.github.io/web5/srv/Apple.com-Clone/index.html)                   |
-| 24  | [Google](https://github.com/pedroAkiraDanno/web5/srv/tree/main/Google)                                   | [Live Demo](https://pedroakiradanno.github.io/web5/srv/Google/index.html)                            |
-| 25  | [NASA_Clone2](https://github.com/pedroAkiraDanno/web5/srv/tree/main/NASA_Clone2)                         | [Live Demo](https://pedroakiradanno.github.io/web5/srv/NASA_Clone2/index.html)                       |
-| 26  | [NASA-landingpage](https://github.com/pedroAkiraDanno/web5/srv/tree/main/NASA-landingpage)               | [Live Demo](https://pedroakiradanno.github.io/web5/srv/NASA-landingpage/Finished-website/index.html) |
-| 27  | [firebasecontact](https://github.com/pedroAkiraDanno/web5/srv/tree/main/firebasecontact)                 | [Live Demo](https://pedroakiradanno.github.io/web5/srv/NASA-landingpage/firebasecontact/index.html)  |
+| 01  | [devaria](https://github.com/pedroAkiraDanno/web5/src/tree/main/devaria)                                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/devaria/index.html)                           |
+| 02  | [one-page-project](https://github.com/pedroAkiraDanno/web5/src/tree/main/one-page-project)               | [Live Demo](https://pedroakiradanno.github.io/web5/src/one-page-project/index.html)                  |
+| 03  | [Forms_Ballerini](https://github.com/pedroAkiraDanno/web5/src/tree/main/Forms_Ballerini)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/Forms_Ballerini/formulario.html)              |
+| 04  | [Forms_Kich](https://github.com/pedroAkiraDanno/web5/src/tree/main/Forms_Kich)                           | [Live Demo](https://pedroakiradanno.github.io/web5/src/Forms_Kich/pro/index.html)                    |
+| 05  | [02-HTML-Fundamentals](https://github.com/pedroAkiraDanno/web5/src/tree/main/02-HTML-Fundamentals)       | [Live Demo](https://pedroakiradanno.github.io/web5/src/02-HTML-Fundamentals/index.html)              |
+| 06  | [Netflix-Login](https://github.com/pedroAkiraDanno/web5/src/tree/main/login/Login)                       | [Live Demo](https://pedroakiradanno.github.io/web5/src/login/Login/index.html)                       |
+| 07  | [dark_light_form](https://github.com/pedroAkiraDanno/web5/src/tree/main/dark_light_form)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/dark_light_form/index.html)                   |
+| 08  | [netflix-clone](https://github.com/pedroAkiraDanno/web5/src/tree/main/netflix-clone)                     | [Live Demo](https://pedroakiradanno.github.io/web5/src/netflix-clone/index.html)                     |
+| 09  | [resumetemplate-gh-pages](https://github.com/pedroAkiraDanno/web5/src/tree/main/resumetemplate-gh-pages) | [Live Demo](https://pedroakiradanno.github.io/web5/src/resumetemplate-gh-pages/index.html)           |
+| 10  | [IzzyPortfolio-gh-pages](https://github.com/pedroAkiraDanno/web5/src/tree/main/IzzyPortfolio-gh-pages)   | [Live Demo](https://pedroakiradanno.github.io/web5/src/IzzyPortfolio-gh-pages/index.html)            |
+| 11  | [Tribute_page](https://github.com/pedroAkiraDanno/web5/src/tree/main/Tribute_page)                       | [Live Demo](https://pedroakiradanno.github.io/web5/src/Tribute_page/index.html)                      |
+| 12  | [Survey_Form](https://github.com/pedroAkiraDanno/web5/src/tree/main/Survey_Form)                         | [Live Demo](https://pedroakiradanno.github.io/web5/src/Survey_Form/index.html)                       |
+| 13  | [technical_doc_page](https://github.com/pedroAkiraDanno/web5/src/tree/main/technical_doc_page)           | [Live Demo](https://pedroakiradanno.github.io/web5/src/technical_doc_page/index.html)                |
+| 14  | [Landing_page](https://github.com/pedroAkiraDanno/web5/src/tree/main/Landing_page)                       | [Live Demo](https://pedroakiradanno.github.io/web5/src/Landing_page/index.html)                      |
+| 15  | [Event_Page](https://github.com/pedroAkiraDanno/web5/src/tree/main/Event_Page)                           | [Live Demo](https://pedroakiradanno.github.io/web5/src/Event_Page/index.html)                        |
+| 16  | [form-input-wave](https://github.com/pedroAkiraDanno/web5/src/tree/main/form-input-wave)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/form-input-wave/index.html)                   |
+| 17  | [Parallax_website](https://github.com/pedroAkiraDanno/web5/src/tree/main/Parallax_website)               | [Live Demo](https://pedroakiradanno.github.io/web5/src/Parallax_website/index.html)                  |
+| 18  | [page_Animation](https://github.com/pedroAkiraDanno/web5/src/tree/main/page_Animation)                   | [Live Demo](https://pedroakiradanno.github.io/web5/src/page_Animation/index.html)                    |
+| 19  | [NikeWebClone](https://github.com/pedroAkiraDanno/web5/src/tree/main/NikeWebClone)                       | [Live Demo](https://pedroakiradanno.github.io/web5/src/NikeWebClone/index.html)                      |
+| 20  | [spacex-clone](https://github.com/pedroAkiraDanno/web5/src/tree/main/spacex-clone)                       | [Live Demo](https://pedroakiradanno.github.io/web5/src/spacex-clone/index.html)                      |
+| 21  | [SpaceX-clone2](https://github.com/pedroAkiraDanno/web5/src/tree/main/SpaceX-clone2)                     | [Live Demo](https://pedroakiradanno.github.io/web5/src/SpaceX-clone2/index.html)                     |
+| 22  | [NasaClone](https://github.com/pedroAkiraDanno/web5/src/tree/main/NasaClone)                             | [Live Demo](https://pedroakiradanno.github.io/web5/src/NasaClone/index.html)                         |
+| 23  | [Apple.com-Clone](https://github.com/pedroAkiraDanno/web5/src/tree/main/Apple.com-Clone)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/Apple.com-Clone/index.html)                   |
+| 24  | [Google](https://github.com/pedroAkiraDanno/web5/src/tree/main/Google)                                   | [Live Demo](https://pedroakiradanno.github.io/web5/src/Google/index.html)                            |
+| 25  | [NASA_Clone2](https://github.com/pedroAkiraDanno/web5/src/tree/main/NASA_Clone2)                         | [Live Demo](https://pedroakiradanno.github.io/web5/src/NASA_Clone2/index.html)                       |
+| 26  | [NASA-landingpage](https://github.com/pedroAkiraDanno/web5/src/tree/main/NASA-landingpage)               | [Live Demo](https://pedroakiradanno.github.io/web5/src/NASA-landingpage/Finished-website/index.html) |
+| 27  | [firebasecontact](https://github.com/pedroAkiraDanno/web5/src/tree/main/firebasecontact)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/NASA-landingpage/firebasecontact/index.html)  |
 
 ---
 
