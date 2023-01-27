@@ -77,6 +77,8 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **firebasecontact** ->[firebasecontact](https://pedroakiradanno.github.io/web5/src/NASA-landingpage/firebasecontact/index.html)
 
+**amazon-clone** ->[amazon-clone](https://pedroakiradanno.github.io/web5/src/NASA-landingpage/amazon-clone/index.html)
+
 
 <br/>
 
@@ -111,6 +113,11 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 25  | [NASA_Clone2](https://github.com/pedroAkiraDanno/web5/src/tree/main/NASA_Clone2)                         | [Live Demo](https://pedroakiradanno.github.io/web5/src/NASA_Clone2/index.html)                       |
 | 26  | [NASA-landingpage](https://github.com/pedroAkiraDanno/web5/src/tree/main/NASA-landingpage)               | [Live Demo](https://pedroakiradanno.github.io/web5/src/NASA-landingpage/Finished-website/index.html) |
 | 27  | [firebasecontact](https://github.com/pedroAkiraDanno/web5/src/tree/main/firebasecontact)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/firebasecontact/index.html)  |
+| 28  | [amazon-clone](https://github.com/pedroAkiraDanno/web5/src/tree/main/amazon-clone)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/amazon-clone/index.html)  |
+
+
+
+
 
 ---
 
