@@ -83,7 +83,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 **FormularioResponsivo** ->[FormularioResponsivo](https://pedroakiradanno.github.io/web5/src/FormularioResponsivo-main/index.html)
 
-**telaLoginCadastroInterativa-master** ->[telaLoginCadastroInterativa-master](https://github.com/Guilherme-Chinaglia/telaLoginCadastroInterativa/index.html)
+**telaLoginCadastroInterativa-master** ->[telaLoginCadastroInterativa-master](https://pedroakiradanno.github.io/web5/src/telaLoginCadastroInterativa-master/index.html)
 
 
 
@@ -125,7 +125,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 28  | [amazon-clone](https://github.com/pedroAkiraDanno/web5/src/tree/main/amazon-clone)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/amazon-clone/index.html)  |
 | 29  | [ironhack_css_clones](https://github.com/pedroAkiraDanno/web5/src/tree/main/ironhack_css_clones)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/ironhack_css_clones/index.html)  |
 | 30  | [FormularioResponsivo-main](https://github.com/pedroAkiraDanno/web5/tree/main/src/FormularioResponsivo-main)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/FormularioResponsivo-main/index.html)  |
-| 31  | [telaLoginCadastroInterativa-master](https://github.com/Guilherme-Chinaglia/telaLoginCadastroInterativa)                 | [Live Demo](https://github.com/Guilherme-Chinaglia/telaLoginCadastroInterativa/index.html)  |
+| 31  | [telaLoginCadastroInterativa-master](https://github.com/pedroAkiraDanno/web5/tree/main/src/telaLoginCadastroInterativa-master)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/telaLoginCadastroInterativa-master/index.html)  |
 
 
 
