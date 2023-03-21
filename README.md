@@ -86,6 +86,9 @@ Cascading Style Sheets is a style sheet language used for describing the present
 **telaLoginCadastroInterativa-master** ->[telaLoginCadastroInterativa-master](https://pedroakiradanno.github.io/web5/src/telaLoginCadastroInterativa-master/index.html)
 
 
+**Login-Register-Template** ->[Login-Register-Template](https://pedroakiradanno.github.io/web5/src/Login-Register-Template/index.html)
+
+
 
 
 
@@ -126,6 +129,8 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 29  | [ironhack_css_clones](https://github.com/pedroAkiraDanno/web5/src/tree/main/ironhack_css_clones)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/ironhack_css_clones/index.html)  |
 | 30  | [FormularioResponsivo-main](https://github.com/pedroAkiraDanno/web5/tree/main/src/FormularioResponsivo-main)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/FormularioResponsivo-main/index.html)  |
 | 31  | [telaLoginCadastroInterativa-master](https://github.com/pedroAkiraDanno/web5/tree/main/src/telaLoginCadastroInterativa-master)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/telaLoginCadastroInterativa-master/index.html)  |
+| 32  | [Login-Register-Template](https://github.com/pedroAkiraDanno/web5/tree/main/src/Login-Register-Template)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/Login-Register-Template/index.html)  |
+
 
 
 
