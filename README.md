@@ -86,13 +86,13 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 ## Imporant links and sites to study
 
-<a href="https://www.w3schools.com/html/" target="_blank">w3schools</a> Explain: ---
+1. <a href="https://www.w3schools.com/html/" target="_blank">w3schools</a> Explain: ---
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">developer.mozilla</a> Explain: about good web pratices
+2. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">developer.mozilla</a> Explain: about good web pratices
 
-<a href="https://html.com/" target="_blank">html</a> Explain: ---
+3. <a href="https://html.com/" target="_blank">html</a> Explain: ---
 
-<a href="https://github.com/bradtraversy/50projects50days" target="_blank">50projects50days</a> Explain: ---
+3. <a href="https://github.com/bradtraversy/50projects50days" target="_blank">50projects50days</a> Explain: ---
 
 ---
 
