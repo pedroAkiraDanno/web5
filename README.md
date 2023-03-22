@@ -63,7 +63,7 @@ Cascading Style Sheets is a style sheet language used for describing the present
 | 30  | [FormularioResponsivo-main](https://github.com/pedroAkiraDanno/web5/tree/main/src/FormularioResponsivo-main)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/FormularioResponsivo-main/index.html)  |
 | 31  | [telaLoginCadastroInterativa-master](https://github.com/pedroAkiraDanno/web5/tree/main/src/telaLoginCadastroInterativa-master)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/telaLoginCadastroInterativa-master/index.html)  |
 | 32  | [Login-Register-Template](https://github.com/pedroAkiraDanno/web5/tree/main/src/Login-Register-Template)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/Login-Register-Template/login.html)  |
-
+| 33  | [Login-Register-Template](https://github.com/pedroAkiraDanno/web5/tree/main/src/CristianRuizBlog-LoginForm2)                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/CristianRuizBlog-LoginForm2/index.html)  |
 
 
 
