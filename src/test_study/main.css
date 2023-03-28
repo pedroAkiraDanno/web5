@@ -1,5 +1,24 @@
 table {
-    border: 1px solid var(--border-primary);
+    border: 1px solid;
     border-collapse: collapse;
     width: 100%;
 }
+
+
+th, td {
+  border: 1px solid;
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+/*https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l 
+<table class="styled-table">
+
+*/
