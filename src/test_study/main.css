@@ -1,3 +1,43 @@
+
+
+table {
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+	padding: 15px;
+}
+table thead td {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #54585d;
+}
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+/*https://codeshack.io/html-styling-tables-example/
+*/
+
+
+
+
+
+
+
+
+/* ------- */
+
+/*
 table {
     border: 1px solid;
     border-collapse: collapse;
@@ -18,6 +58,9 @@ th, td {
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
+*/
+
+
 /*https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l 
 <table class="styled-table">
 
