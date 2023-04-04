@@ -25,11 +25,38 @@ th, td {
 */
 
 
-table-v2{
 
+
+
+/* ------------------------------------- table v2 */
+
+table-v2 {
 	border-collapse: collapse;
     font-family: Tahoma, Geneva, sans-serif;
 }
+td-v2 {
+	padding: 15px;
+}
+td-v2 {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #54585d;
+}
+table tbody td-v2 {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+tr-v2 {
+	background-color: #f9fafb;
+}
+ tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+
+
 
 
 
