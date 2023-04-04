@@ -25,9 +25,16 @@ th, td {
 */
 
 
+table-v2{
+
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+
 /*https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l 
 <table class="styled-table">
-
 
 
 
