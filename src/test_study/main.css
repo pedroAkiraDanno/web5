@@ -61,12 +61,22 @@ tr-v2 {
 
 
 /*https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l 
-<table class="styled-table">
+<table class="styled-table"> */
 
 
 
 
+table {
+  border-collapse: collapse;
+}
 
+th,
+td {
+  border: 1px solid black;
+}
+
+/* https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l
+https://www.digitalocean.com/community/tutorials/how-to-style-a-table-with-css */
 
 
 
