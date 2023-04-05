@@ -1,11 +1,14 @@
 <!DOCTYPE html>
- 
+
 <html>
- <head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico" />
+    <link
+      rel="shortcut icon"
+      href="http://sstatic.net/stackoverflow/img/favicon.ico"
+    />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" type="image/x-icon" href="icon.png" />
     <link rel="icon" href="icon.png" />
@@ -16,207 +19,52 @@
       https://dev.to/karinapichardo/how-to-add-a-browser-tab-icon-to-your-websites-20e8 
     -->
     <title>Forms</title>
- </head>
+  </head>
 
- 
- 
- <body>
-  <h1> Bem vindo ao site HTML Progressivo</h1> 
-  <h2> Preencha o formulario abaixo para participar do curso de HTML & CSS completo, online e gratis</h2><br />
+  <body>
+    <h1>My Form</h1>
 
-<form action="Script_do_Formulario.php" method="post">
+    <form method="post" action="www.programiz.com/user">
+      <label for="firstname">First name:</label>
+      <input type="text" name="firstname" /><br />
+      <label for="lastname">Last name:</label>
+      <input type="text" name="lastname" /><br />
+      <input type="submit" />
+    </form>
+    <!-- https://www.programiz.com/html/form-action -->
 
-<!-- DADOS PESSOAIS-->
-<fieldset>
- <legend>Dados Pessoais</legend>
- <table cellspacing="10">
-  <tr>
-   <td>
-    <label for="nome">Nome: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="email">
-   </td>
-   <td>
-    <label for="sobrenome">Sobrenome: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="sobrenome">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label>Nascimento: </label>
-   </td>
-   <td align="left">
-    <!-- 
-    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
-   <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
-   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
-   -->
-  <input id="date" type="date">
+    <form action="/tutorial/action.html">
+      <label>Enter your name</label> <br />
+      <input type="text" name="firstname" placeholder="First name" /><br />
+      <input type="text" name="lastname" placeholder="Last name" /><br /><br />
 
-    
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="rg">RG: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="rg" size="13" maxlength="13"> 
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label>CPF:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
-   </td>
-  </tr>
- </table>
-</fieldset>
+      <button type="submit">Submit</button>
+    </form>
+    <!-- https://www.dofactory.com/html/editor/form-action -->
 
- 
- 
-<br />
-<!-- ENDEREÇO -->
-<fieldset>
- <legend>Dados de Endereço</legend>
- <table cellspacing="10">
+    <form action="javascript:submit()">
+      <label>Enter your address</label> <br />
+      <input type="text" name="street" placeholder="Street" /><br />
+      <input type="text" name="city" placeholder="City" /><br />
+      <input type="text" name="state" placeholder="State" /><br /><br />
 
-  <tr>
-   <td>
-    <label for="rua">Rua:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="rua">
-   </td>
-   <td>
-    <label for="numero">Numero:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="numero" size="4">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="bairro">Bairro: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="bairro">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="estado">Estado:</label>
-   </td>
-   <td align="left">
-    <select name="estado"> 
-    <option value="ac">Acre</option> 
-    <option value="al">Alagoas</option> 
-    <option value="am">Amazonas</option> 
-    <option value="ap">Amapá</option> 
-    <option value="ba">Bahia</option> 
-    <option value="ce">Ceará</option> 
-    <option value="df">Distrito Federal</option> 
-    <option value="es">Espírito Santo</option> 
-    <option value="go">Goiás</option> 
-    <option value="ma">Maranhão</option> 
-    <option value="mt">Mato Grosso</option> 
-    <option value="ms">Mato Grosso do Sul</option> 
-    <option value="mg">Minas Gerais</option> 
-    <option value="pa">Pará</option> 
-    <option value="pb">Paraíba</option> 
-    <option value="pr">Paraná</option> 
-    <option value="pe">Pernambuco</option> 
-    <option value="pi">Piauí</option> 
-    <option value="rj">Rio de Janeiro</option> 
-    <option value="rn">Rio Grande do Norte</option> 
-    <option value="ro">Rondônia</option> 
-    <option value="rs">Rio Grande do Sul</option> 
-    <option value="rr">Roraima</option> 
-    <option value="sc">Santa Catarina</option> 
-    <option value="se">Sergipe</option> 
-    <option value="sp">São Paulo</option> 
-    <option value="to">Tocantins</option> 
-   </select>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="cidade">Cidade: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="cidade">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="cep">CEP: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
-   </td>
-  </tr>
- </table>
-</fieldset>
-<br />
+      <button type="submit">Submit</button>
+    </form>
 
-<!-- DADOS DE LOGIN -->
-<fieldset>
- <legend>Dados de login</legend>
- <table cellspacing="10">
-  <tr>
-   <td>
-    <label for="email">E-mail: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="email">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="imagem">Imagem de perfil:</label>
-   </td>
-   <td>
-    <input type="file" name="imagem" >
+    <script>
+      let submit = () => {
+        let values = "";
+        values +=
+          "Street = " + document.getElementsByName("street")[0].value + "\n";
+        values +=
+          "City = " + document.getElementsByName("city")[0].value + "\n";
+        values +=
+          "State = " + document.getElementsByName("state")[0].value + "\n";
+        alert(values);
+      };
+    </script>
+    <!-- https://www.dofactory.com/html/form/action-->
 
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="login">Login de usuário: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="login">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="pass">Senha: </label>
-   </td>
-   <td align="left">
-    <input type="password" name="pass">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="passconfirm">Confirme a senha: </label>
-   </td>
-   <td align="left">
-    <input type="password" name="passconfirm">
-   </td>
-  </tr>
- </table>
-</fieldset>
-<br />
-<input type="submit">
-<input type="reset" value="Limpar">
-</form>
-  
-  <!-- https://www.htmlprogressivo.net/2014/01/Como-criar-um-formulario-completo-para-um-site.html -->
-
- </body>
+    <!-- https://www.htmlprogressivo.net/2014/01/Como-criar-um-formulario-completo-para-um-site.html -->
+  </body>
 </html>
