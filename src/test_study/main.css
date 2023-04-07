@@ -30,31 +30,43 @@ th, td {
 
 /* ------------------------------------- table v2 */
 
-table-v2 {
+.table-v2 {
 	border-collapse: collapse;
-    font-family: Tahoma, Geneva, sans-serif;
-}
-td-v2 {
-	padding: 15px;
-}
-td-v2 {
-	background-color: #54585d;
-	color: #ffffff;
-	font-weight: bold;
-	font-size: 13px;
-	border: 1px solid #54585d;
-}
-table tbody td-v2 {
-	color: #636363;
-	border: 1px solid #dddfe1;
-}
-tr-v2 {
-	background-color: #f9fafb;
-}
- tr:nth-child(odd) {
-	background-color: #ffffff;
+	margin: 25px 0;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
+.table-v2 thead tr {
+	background-color: #009879;
+	color: #ffffff;
+	text-align: left;
+}
+
+.table-v2 th,
+.table-v2 td {
+    padding: 12px 15px;
+}
+
+
+.table-v2 tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.table-v2 tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.table-v2 tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
+
+.table-v2 tbody tr.active-row {
+	font-weight: bold;
+	color: #009879;
+}
 
 
 
