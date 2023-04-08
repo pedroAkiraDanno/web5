@@ -22,146 +22,119 @@
   </head>
 
   <body>
-    <h1>Welcome to the Progressive HTML website </h1>
-    <h2>Fill out the form below to participate in the complete, online and free HTML & CSS course</h2>
-    <br/>
+    <h1>Welcome to the Progressive HTML website</h1>
+    <h2>
+      Fill out the form below to participate in the complete, online and free
+      HTML & CSS course
+    </h2>
+    <br />
 
     <form action="Script_do_Formulario.php" method="post">
-
       <!-- DADOS PESSOAIS-->
       <fieldset>
-      <legend>Dados Pessoais</legend>  
+        <legend>Dados Pessoais</legend>
 
-      <table>
+        <table>
           <tr>
-            <td><label for="full_name">Full name: <label></label></td>
-            <td><input type="text" id="full_name"></td>
+            <td><label for="full_name">Full name:</label></td>
+            <td><input type="text" id="full_name" /></td>
           </tr>
           <tr>
-            <td>    <label for="date">Birth: <label></label></td>
-            <td>      <input type="date" id="date"></td>
+            <td><label for="date">Birth:</label></td>
+            <td><input type="date" id="date" /></td>
           </tr>
 
           <tr>
-            <td>      <label for="RG">RG: <label></label></td>
-            <td>      <input type="text" id="RG"></td>
+            <td><label for="RG">RG: </label></td>
+            <td><input type="text" id="RG" /></td>
           </tr>
           <tr>
-            <td>      <label for="CPF">CPF: <label></label></td>
-            <td>      <input type="text" id="CPF"></td>
+            <td><label for="CPF">CPF: </label></td>
+            <td><input type="text" id="CPF" /></td>
           </tr>
-      </table>      
-
-
+        </table>
       </fieldset>
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <br />
-      <!-- ENDEREÇO -->   
+      <!-- ENDEREÇO -->
       <fieldset>
-      <legend>Dados de Endereço</legend>          
-      <label for="rua">Rua:</label>
-      <input type="text" name="rua">
-        
-      <label for="numero">Numero:</label>
-      <input type="text" name="numero" size="4">
- 
-      <label for="bairro">Bairro: </label>
-      <input type="text" name="bairro">
-        
-      <label for="estado">Estado:</label>
-      <select name="estado"> 
-      <option value="ac">Acre</option> 
-      <option value="al">Alagoas</option> 
-      <option value="am">Amazonas</option> 
-      <option value="ap">Amapá</option> 
-      <option value="ba">Bahia</option> 
-      <option value="ce">Ceará</option> 
-      <option value="df">Distrito Federal</option> 
-      <option value="es">Espírito Santo</option> 
-      <option value="go">Goiás</option> 
-      <option value="ma">Maranhão</option> 
-      <option value="mt">Mato Grosso</option> 
-      <option value="ms">Mato Grosso do Sul</option> 
-      <option value="mg">Minas Gerais</option> 
-      <option value="pa">Pará</option> 
-      <option value="pb">Paraíba</option> 
-      <option value="pr">Paraná</option> 
-      <option value="pe">Pernambuco</option> 
-      <option value="pi">Piauí</option> 
-      <option value="rj">Rio de Janeiro</option> 
-      <option value="rn">Rio Grande do Norte</option> 
-      <option value="ro">Rondônia</option> 
-      <option value="rs">Rio Grande do Sul</option> 
-      <option value="rr">Roraima</option> 
-      <option value="sc">Santa Catarina</option> 
-      <option value="se">Sergipe</option> 
-      <option value="sp">São Paulo</option> 
-      <option value="to">Tocantins</option> 
-     </select>        
+        <legend>Dados de Endereço</legend>
+        <label for="rua">Rua:</label>
+        <input type="text" name="rua" />
 
+        <label for="numero">Numero:</label>
+        <input type="text" name="numero" size="4" />
 
-     <label for="cidade">Cidade: </label>
-     <input type="text" name="cidade">
+        <label for="bairro">Bairro: </label>
+        <input type="text" name="bairro" />
 
+        <label for="estado">Estado:</label>
+        <select name="estado">
+          <option value="ac">Acre</option>
+          <option value="al">Alagoas</option>
+          <option value="am">Amazonas</option>
+          <option value="ap">Amapá</option>
+          <option value="ba">Bahia</option>
+          <option value="ce">Ceará</option>
+          <option value="df">Distrito Federal</option>
+          <option value="es">Espírito Santo</option>
+          <option value="go">Goiás</option>
+          <option value="ma">Maranhão</option>
+          <option value="mt">Mato Grosso</option>
+          <option value="ms">Mato Grosso do Sul</option>
+          <option value="mg">Minas Gerais</option>
+          <option value="pa">Pará</option>
+          <option value="pb">Paraíba</option>
+          <option value="pr">Paraná</option>
+          <option value="pe">Pernambuco</option>
+          <option value="pi">Piauí</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="rn">Rio Grande do Norte</option>
+          <option value="ro">Rondônia</option>
+          <option value="rs">Rio Grande do Sul</option>
+          <option value="rr">Roraima</option>
+          <option value="sc">Santa Catarina</option>
+          <option value="se">Sergipe</option>
+          <option value="sp">São Paulo</option>
+          <option value="to">Tocantins</option>
+        </select>
 
-     <label for="cep">CEP: </label>
-     <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
-     </fieldset>
+        <label for="cidade">Cidade: </label>
+        <input type="text" name="cidade" />
 
+        <label for="cep">CEP: </label>
+        <input type="text" name="cep" size="5" maxlength="5" /> -
+        <input type="text" name="cep2" size="3" maxlength="3" />
+      </fieldset>
 
-     <!-- DADOS DE LOGIN -->
-     <fieldset>
-     <legend>Dados de login</legend>    
-     <!--   
+      <!-- DADOS DE LOGIN -->
+      <fieldset>
+        <legend>Dados de login</legend>
+        <!--   
      <label for="email">E-mail: </label>
      <input type="text" name="email" />
      -->
-       
-     <label for="imagem">Imagem de perfil:</label>
-     <input type="file" name="imagem" accept="image/png, image/jpeg"  />
 
-     <label for="login">Login de usuário: </label>
-     <input type="text" name="login" placeholder="Insira seu e-mail ou CPF" />
+        <label for="imagem">Imagem de perfil:</label>
+        <input type="file" name="imagem" accept="image/png, image/jpeg" />
 
-     <label for="pass">Senha: </label>
-     <input type="password" name="pass" />
+        <label for="login">Login de usuário: </label>
+        <input
+          type="text"
+          name="login"
+          placeholder="Insira seu e-mail ou CPF"
+        />
 
-     <label for="passconfirm">Confirme a senha: </label>
-     <input type="password" name="passconfirm" />
-     </fieldset>
+        <label for="pass">Senha: </label>
+        <input type="password" name="pass" />
 
-     <br />
-     <input type="submit" />
-     <input type="reset" value="Limpar" />
+        <label for="passconfirm">Confirme a senha: </label>
+        <input type="password" name="passconfirm" />
+      </fieldset>
 
-
-
-
-      
-
-
-
-
-
+      <br />
+      <input type="submit" />
+      <input type="reset" value="Limpar" />
     </form>
 
     <!-- https://www.htmlprogressivo.net/2014/01/Como-criar-um-formulario-completo-para-um-site.html -->
