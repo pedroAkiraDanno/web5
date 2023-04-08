@@ -6,5 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Select and option</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Select and option</h1>
+    <label>Disponível para Viajar?</a>
+      <select name="viagem">
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+      </select>
+
+
+
+      <form>
+        <select name="plataforma">
+            <option value="">Escolha uma plataforma de jogos</option>
+            <option value="xbox">Xbox Series</option>
+            <option value="ps5">PS5</option>
+            <option value="nsw">Nintendo Switch</option>
+            <option value="pcg">PC Gaming</option>
+        </select>
+    </form>
+
+
+    <form>
+      <label>Você tem mais de 18 anos?</label>
+      <select name="maioridade">
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+      </select>
+  </form>
+
+
+  <form>
+    <label>Qual é a sua linguagem de programação principal?</label>
+    <select name="linguagem" required="required">
+        <option value="">Escolha uma linguagem de programação</option>
+        <option value="csharp">C#</option>
+        <option value="php">PHP</option>
+        <option value="java">Java</option>
+        <option value="javascript">JavaScript</option>
+        <option value="cpp">C++</option>
+    </select>
+  <button type="submit">Enviar</button>
+</form>
+
+      <!--  refe:
+      https://www.devmedia.com.br/html-select-criando-uma-lista-de-selecao/43496-->
+  </body>
 </html>
