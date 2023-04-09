@@ -29,3 +29,13 @@ a{
 }
 
 
+.form-wrap{
+  background: #fff ;
+  padding: 15px 25px;
+  color: #333;
+  border-top: 4px solid #49c1a2;
+  border-radius: 05px;
+}
+
+
+
