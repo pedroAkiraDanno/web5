@@ -60,6 +60,8 @@ a{
   padding: 10px;
   border: #ddd 1px solid;
   border-radius: 5px;
+  font-family: 'poppins';
+
 }
 
 
@@ -89,3 +91,14 @@ a{
   margin-top: 20px;
 }
 
+footer{
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+}
+
+
+footer a{
+  color: #49c1a2;
+
+}
