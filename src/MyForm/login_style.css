@@ -78,8 +78,14 @@ a{
 }
 
 
+.form-wrap button:hover{
+  background-color: #37a08e;
+  transition: 1s;
+}
 
 
-
-
+.form-wrap .bottom-text{
+  font-size: 13px;
+  margin-top: 20px;
+}
 
