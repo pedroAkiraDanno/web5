@@ -18,7 +18,14 @@ body{
 
 
 a{
-  
+  text-decoration: none;
+}
+
+
+#container{
+  max-width: 430px;
+  margin: 30px auto;
+  padding: 20px;
 }
 
 
