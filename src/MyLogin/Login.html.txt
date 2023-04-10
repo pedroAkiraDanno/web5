@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Login.css">
+  <title>Login & Signup </title>
+</head>
+<body>
+  <!-- Container Start -->
+  <div id="container">
+    <!-- Form Wrap Start -->
+    <div class="form-wrap">
+      <h1>Login</h1>
+      <!-- Form Start -->
+      <form>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="firstname" id="first-name">
+        </div>
+        <button type="submit">Login </button>
+        <p class="bottom-text">
+            Forgot Password?
+          <a href="#"> Click here</a>
+        </p>
+      </form>
+      <!-- Form Close -->
+    </div>
+    <!-- Form Wrap Close -->
+    <footer>
+      <p>If you don't have any Account? <a href="SignUp.html">Register Now </a></p>
+    </footer>
+  </div>
+  <!-- Container Close -->
+  
+  
+  <!-- 
+    reference: 
+      https://www.onlineittuts.com/how-to-create-registration-form-in-html.html
+      https://www.youtube.com/watch?v=M6wpt7ifGzw&t=508s
+      https://www.youtube.com/watch?v=UWaERxWn9GA
+  -->
+
+
+  
+</body>
+</html>
