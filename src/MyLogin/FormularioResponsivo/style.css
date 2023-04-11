@@ -60,7 +60,18 @@ body {
 }
 
 
+.login-button button {
+  border: none;
+  background-color: aqua;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+
+.login-button button:hover {
+  background-color: rgb(243, 131, 131);
+}
 
 
 
