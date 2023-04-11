@@ -54,6 +54,11 @@ body {
 }
 
 
+.login-button {
+  display: flex;
+  align-items: center;
+}
+
 
 
 
