@@ -69,28 +69,36 @@
           required
         />
 
-        <label for="confirmpassword">Confirme sua senha</label>
-        <input
-          id="confirmpassword"
-          type="password"
-          name="confirmpassword"
-          placeholder="Confirme sua senha"
-          required
-        />
+        <div class="input-box">
+          <label for="confirmpassword">Confirme sua senha</label>
+          <input
+            id="confirmpassword"
+            type="password"
+            name="confirmpassword"
+            placeholder="Confirme sua senha"
+            required
+          />
+        </div>
 
-        <h6>Gêneros</h6>
+        <div class="gender-inputs">
+          <div class="gender-title">
+            <h6>Gêneros</h6>
+          </div>
 
-        <input type="radio" id="female" name="gender" />
-        <label for="female">Femenino</label>
+          <div class="gender-group">
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Femenino</label>
 
-        <input type="radio" id="male" name="gender" />
-        <label for="male">Masculino</label>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">Masculino</label>
 
-        <input type="radio" id="others" name="gender" />
-        <label for="others">Outros</label>
+            <input type="radio" id="others" name="gender" />
+            <label for="others">Outros</label>
 
-        <input type="radio" id="none" name="gender" />
-        <label for="none">Prefiro não dizer</label>
+            <input type="radio" id="none" name="gender" />
+            <label for="none">Prefiro não dizer</label>
+          </div>
+        </div>
 
         <button><a href="#">Cadastrar</a></button>
       </form>
