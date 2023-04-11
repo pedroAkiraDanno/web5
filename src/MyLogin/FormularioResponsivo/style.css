@@ -22,3 +22,16 @@ body {
   display: flex;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
+
+.form-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 100, 0, 0.404);
+  padding: 1rem;
+}
+
+.form-img img {
+  width: 32rem;
+}
