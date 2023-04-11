@@ -14,3 +14,11 @@ body {
   align-items: center;
   background: rgb(246, 237, 237);
 }
+
+
+.container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
