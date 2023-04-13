@@ -1,0 +1,49 @@
+/* Todos os elementos da página */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Elemento de tag <body> */
+body{
+  background-color: #F0F8FF;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #59429d;
+  margin-left: 36%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+
+
+/* Elementos com o ID "titulo" */
+#titulo {
+  font-family: sans-serif;
+  color: #380B61;
+  margin-left: 7%;
+} 
+
+
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+  font-family: sans-serif;
+  color: #380B61;
+  margin-left: 10%;
+} 
+
+
+
+
+
+
+#check{
+  display: inline-block;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+  border: 0;
+}
