@@ -138,3 +138,11 @@ fieldset.grupo .campo {
 }
 
 
+
+
+/*PEDRO AKIRA TESTE*/
+.campo textarea{
+  resize: none;
+
+}
+/*https://pt.stackoverflow.com/questions/177917/como-desabilitar-o-resize-do-textarea*/
