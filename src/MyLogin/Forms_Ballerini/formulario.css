@@ -26,15 +26,12 @@ body{
 } 
 
 
-
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
   font-family: sans-serif;
   color: #380B61;
   margin-left: 10%;
 } 
-
-
 
 
 
@@ -47,3 +44,17 @@ body{
 fieldset {
   border: 0;
 }
+
+
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #59429d;
+  border-radius: 5px;
+}
+
+
+
+
