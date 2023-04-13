@@ -56,5 +56,14 @@ input, select, textarea, button {
 }
 
 
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after {
+  display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after {
+  clear: both;
+}
 
 

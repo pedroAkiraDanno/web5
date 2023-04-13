@@ -46,6 +46,7 @@ input, select, textarea, button {
     border-radius: 5px;
 }
 
+
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
 .grupo:before, .grupo:after {
     display: table;
