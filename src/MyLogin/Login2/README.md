@@ -32,13 +32,13 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 |  #  | Project                                                                                                  | Live Demo                                                                                            |
 | :-: | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| 01  | [MyLogin](https://github.com/pedroAkiraDanno/web5/tree/main/src/MyLogin)                                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/MyLogin/Login.html)                           |
+| 01  | [MyLogin](https://github.com/pedroAkiraDanno/web5/tree/main/src/MyLogin/Login2)                                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/MyLogin/Login2/Login.html)                           |
 
 
 
 github.dev -> VISUAL CODE
 
-https://github.dev/pedroAkiraDanno/web5/blob/main/src/MyLogin/index.html
+https://github.dev/pedroAkiraDanno/web5/blob/main/src/MyLogin/Login2/Login.html
 
 
 
