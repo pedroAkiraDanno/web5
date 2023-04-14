@@ -17,3 +17,10 @@ body{
 a{
   text-decoration: none;
 }
+
+#container{
+  margin: 30px auto;
+  max-width: 430px;
+  padding: 20px;
+}
+
