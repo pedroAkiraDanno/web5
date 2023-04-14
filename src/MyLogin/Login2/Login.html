@@ -8,24 +8,42 @@
     <title>Login & Signup</title>
   </head>
   <body>
-    <form action="#" method="get">
-      <h1>Login</h1>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" />
+    <!-- Container Start -->
+    <div id="container">
+      <!-- Form Wrap Start -->
+      <div class="form-wrap">
+        <h1>Login</h1>
+        <!-- Form Start -->
+        <form>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="firstname" id="first-name" />
+          </div>
+          <button type="submit">Login</button>
+          <p class="bottom-text">
+            Forgot Password?
+            <a href="#"> Click here</a>
+          </p>
+        </form>
+        <!-- Form Close -->
+      </div>
+      <!-- Form Wrap Close -->
+      <footer>
+        <p>
+          If you don't have any Account? <a href="SignUp.html">Register Now </a>
+        </p>
+      </footer>
+    </div>
+    <!-- Container Close -->
 
-      <label for="password">Password</label>
-      <input type="password" name="firstname" id="first-name" />
-
-      <button type="submit">Login</button>
-
-      <p class="bottom-text">
-        Forgot Password?
-        <a href="#"> Click here</a>
-      </p>
-    </form>
-    <!-- reference: 
+    <!-- 
+    reference: 
       https://www.onlineittuts.com/how-to-create-registration-form-in-html.html
       https://www.youtube.com/watch?v=M6wpt7ifGzw&t=508s
-      https://www.youtube.com/watch?v=UWaERxWn9GA -->
-  </body>
+      https://www.youtube.com/watch?v=UWaERxWn9GA
+  --></body>
 </html>
