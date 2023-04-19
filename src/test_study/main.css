@@ -146,12 +146,14 @@ table tbody tr:nth-child(odd) {
 	width: 100px;
 	height: 100px;
 	border: solid 1px;
+	margin-top: 10px;
 }
 
 
 .div_p{
 	background-color: aquamarine;
 	border: solid 1px;
+	margin-top: 10px;
 }
 
 
@@ -159,5 +161,15 @@ table tbody tr:nth-child(odd) {
 .div_p2{
 	background-color: azure ;
 	border: solid 1px;
-
+	margin-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
