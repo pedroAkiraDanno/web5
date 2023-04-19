@@ -165,11 +165,25 @@ table tbody tr:nth-child(odd) {
 }
 
 
+/* ************************************************************* CSS: Pseudo-Elements ***************************************************************************************************** */
+
+
+.ffirst-line::first-line {
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-decoration: underline;
+}
 
 
 
+.first_line2::first-line {
+  color: blue;
+  text-transform: uppercase;
 
-
-
+  /* WARNING: DO NOT USE THESE */
+  /* Many properties are invalid in ::first-line pseudo-elements */
+  margin-left: 20px;
+  text-indent: 20px;
+}
 
 
