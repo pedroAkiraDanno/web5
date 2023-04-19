@@ -149,5 +149,15 @@ table tbody tr:nth-child(odd) {
 }
 
 
+.div_p{
+	background-color: aquamarine;
+	border: solid 1px;
+}
 
 
+
+.div_p2{
+	background-color: azure ;
+	border: solid 1px;
+
+}
