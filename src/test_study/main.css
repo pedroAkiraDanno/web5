@@ -168,7 +168,7 @@ table tbody tr:nth-child(odd) {
 /* ************************************************************* CSS: Pseudo-Elements ***************************************************************************************************** */
 
 
-.ffirst-line::first-line {
+.pfirst_line::first-line {
 	font-size: 1.2rem;
 	font-weight: bold;
 	text-decoration: underline;
