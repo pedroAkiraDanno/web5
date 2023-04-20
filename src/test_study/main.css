@@ -199,6 +199,15 @@ table tbody tr:nth-child(odd) {
   content: "🍔";
 }
 
+
+
+.t1_after::after { 
+  content: " - Remember this";
+	background-color: aqua;
+}
+
+
+
 /*
 https://www.w3schools.com/cssref/sel_before.php
 https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_before_style
