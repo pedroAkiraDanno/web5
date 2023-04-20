@@ -195,6 +195,10 @@ table tbody tr:nth-child(odd) {
 
 }
 
+.before2::before  {
+  content: "🍔";
+}
+
 /*
 https://www.w3schools.com/cssref/sel_before.php
 https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_before_style
