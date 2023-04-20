@@ -185,3 +185,20 @@ table tbody tr:nth-child(odd) {
 }
 
 
+
+
+.tbefore::before{
+  content: "Read this -";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;	
+
+}
+
+/*
+https://www.w3schools.com/cssref/sel_before.php
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_before_style
+https://www.w3schools.com/cssref/sel_before.php
+*/
+
+
