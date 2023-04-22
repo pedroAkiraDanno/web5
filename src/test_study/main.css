@@ -232,7 +232,7 @@ https://www.w3schools.com/cssref/sel_before.php
 	display: flex;
 }
 
-.one, .two, ..three{
+.one, .two, .three{
 	background-color: bisque;
 	width: 300px;
 	height: 300px;
