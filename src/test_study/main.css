@@ -244,6 +244,8 @@ https://www.w3schools.com/cssref/sel_before.php
 
 
 
+
+
 .box2_space-between{
 	background-color: aquamarine;
 	width: 300px;
@@ -254,18 +256,46 @@ https://www.w3schools.com/cssref/sel_before.php
 
 	display: flex;
 	justify-content:  space-between ;
-
-
 }
-
 
 .one2_space-between, .two2_space-between, .three2_space-between{
 	background-color: bisque;
 	width: 80px;
 	height: 80px;
 	border: solid 1px black;
-
 }
+
+
+
+
+
+
+
+
+
+
+
+.box2_space_around{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	justify-content:  space-around ;
+}
+
+.one2_space_around, .two2_space_around, .three2_space_around{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+}
+
+
+
 
 
 
