@@ -223,6 +223,31 @@ https://www.w3schools.com/cssref/sel_before.php
 
 
 
+
+.box2_witout_flexbox{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+}
+
+.one2_witout_flexbox, .two2_witout_flexbox, .three2_witout_flexbox{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+}
+
+
+
+
+
+
+
+
+
 .box {
 	background-color: aquamarine;
 	width: 300px;
@@ -309,24 +334,6 @@ https://www.w3schools.com/cssref/sel_before.php
 
 
 
-
-
-
-.box2_witout_flexbox{
-	background-color: aquamarine;
-	width: 300px;
-	height: 300px;
-	border: solid 1px black;
-
-	margin: 100px;
-}
-
-.one2_witout_flexbox, .two2_witout_flexbox, .three2_witout_flexbox{
-	background-color: bisque;
-	width: 80px;
-	height: 80px;
-	border: solid 1px black;
-}
 
 
 
