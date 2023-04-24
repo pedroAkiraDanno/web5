@@ -244,6 +244,20 @@ https://www.w3schools.com/cssref/sel_before.php
 
 
 
+.box2_space-between{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	justify-content:  space-between ;
+
+
+}
+/*https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=EAIaIQobChMI4JnEhN7C_gIVTxvUAR0LXgxbEAAYASAAEgIfovD_BwE*/
 
 
 
