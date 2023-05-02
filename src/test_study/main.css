@@ -330,6 +330,26 @@ https://www.w3schools.com/cssref/sel_before.php
 
 
 
+.box3_space_around{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	justify-content:  center ;
+}
+
+.one3_space_around, .two3_space_around, .three3_space_around{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+
+}
+
 
 
 
