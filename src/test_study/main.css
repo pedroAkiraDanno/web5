@@ -223,6 +223,7 @@ https://www.w3schools.com/cssref/sel_before.php
 
 .p_color_red{
 	color: red;
+	display: block;
 }
 
 
