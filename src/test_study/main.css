@@ -400,6 +400,60 @@ https://www.w3schools.com/cssref/sel_before.php
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box1_flex_direction{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	flex-direction: row-reverse  ;
+}
+
+.one1_flex_direction, .two1_flex_direction, .three1_flex_direction{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+
+}
+
+
+
+
+
 /*https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=EAIaIQobChMI4JnEhN7C_gIVTxvUAR0LXgxbEAAYASAAEgIfovD_BwE*/
 
 
