@@ -523,6 +523,72 @@ https://www.w3schools.com/cssref/sel_before.php
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box2_align_items{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	align-items: stretch ;
+}
+
+.one2_align_items, .two2_align_items, .three2_align_items{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+
+}
+
+
+
+
+ 
+
+
+
+
+
+
 /*https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=EAIaIQobChMI4JnEhN7C_gIVTxvUAR0LXgxbEAAYASAAEgIfovD_BwE*/
 
 
