@@ -524,158 +524,20 @@ https://www.w3schools.com/cssref/sel_before.php
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.box2_align_items{
-	background-color: aquamarine;
-	width: 300px;
-	height: 300px;
-	border: solid 1px black;
-
-	margin: 100px;
-
-	display: flex;
-	align-items: stretch ;
+.container {
+    display: flex; /* ou inline-flex */
+    background-color: #cdf6eb;
+    margin: 20px auto;
+    max-width: 500px;
+    font-family: sans-serif;
 }
-
-.one2_align_items, .two2_align_items, .three2_align_items{
-	background-color: bisque;
-	width: 80px;
-	height: 80px;
-	border: solid 1px black;
-
+.container div {
+    background: #028082;     
+    margin: 8px 4px;
+    font-size: 1em;
+    color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.box3_align_items{
-	background-color: aquamarine;
-	width: 300px;
-	height: 300px;
-	border: solid 1px black;
-
-	margin: 100px;
-
-	display: flex;
-	align-items: baseline ;
-}
-
-.one3_align_items, .two3_align_items, .three3_align_items{
-	background-color: bisque;
-	width: 80px;
-	height: 80px;
-	border: solid 1px black;
-
-}
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.box1_order{
-	background-color: aquamarine;
-	width: 300px;
-	height: 300px;
-	border: solid 1px black;
-
-	margin: 100px;
-
-	display: flex;
-
-}
-
-.one1_order, .two1_order, .three1_order{
-	background-color: bisque;
-	width: 80px;
-	height: 80px;
-	border: solid 1px black;
-	order: 3;
-
-}
-
+/* https://chiefofdesign.com.br/css-flexbox/ */
 
 
 
