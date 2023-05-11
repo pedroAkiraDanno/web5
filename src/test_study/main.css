@@ -682,3 +682,132 @@ h4 {
 
 
 
+
+
+
+
+/******************************************************** CSS: Flexbox: justify-content ************************************************************************************/
+
+
+
+.container {
+    display: flex;
+    background-color: #cdf6eb;
+    margin: 10px auto 30px;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+.flex-start {
+     justify-content: flex-start;
+}
+.flex-end {
+     justify-content: flex-end;
+}
+.center {
+     justify-content: center;
+}
+.space-between {
+     justify-content: space-between;
+}
+.space-around {
+     justify-content: space-around;
+}
+.space-evenly {
+     justify-content: space-evenly;
+}
+.container div {
+    background: #028082;     
+    margin: 8px 4px;
+    height: 80px;
+    width: 80px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    margin: 20px 0 0 20px;    
+    font-family: sans-serif;    
+    font-weight: normal;
+    font-size: 1em;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+
+
+
+
+/* https://chiefofdesign.com.br/css-flexbox/ */
+
+
+
+/******************************************************** CSS: Flexbox: align-items ************************************************************************************/
+
+
+
+
+
+
+.container {
+    display: flex;
+    background-color: #cdf6eb;
+    margin: 10px auto 30px;
+    max-width: 400px;
+    font-family: sans-serif;
+}
+.stretch {
+     align-items: stretch;
+}
+.flex-start {
+     align-items: flex-start;
+}
+.flex-end {
+     align-items: flex-end;
+}
+.center {
+     align-items: center;
+}
+.baseline {
+     align-items: baseline;
+}
+.container .fonte-1 {
+  font-size: 0.6em;
+}
+.container .fonte-2 {
+  font-size: 1.2em;
+}
+.container .fonte-3 {
+  font-size: 0.8em;
+}
+.container div {
+    background: #028082;     
+    margin: 8px 4px;
+    width: 80px;
+    font-size: 1em;
+    color: #fff;
+    flex: 1;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    margin: 20px 0 0 20px;    
+    font-family: sans-serif;    
+    font-weight: normal;
+    font-size: 1em;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+
+
+/* https://chiefofdesign.com.br/css-flexbox/ */
+
+
+
