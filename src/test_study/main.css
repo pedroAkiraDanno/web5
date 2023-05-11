@@ -544,6 +544,83 @@ https://www.w3schools.com/cssref/sel_before.php
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    background-color: #cdf6eb;
+    margin: 10px auto 30px;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+.row {
+     flex-direction: row;
+}
+.row-reverse {
+     flex-direction: row-reverse;
+}
+.column {
+     flex-direction: column;
+}
+.column-reverse {
+     flex-direction: column-reverse;
+}
+.container div {
+    background: #028082; 
+    height: 80px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.row div, .row-reverse div {       
+    margin: 8px 4px;
+    width: 80px;
+}
+.column div, .column-reverse div {       
+    margin: 8px;
+}
+h4 {
+    margin: 20px 0 0 20px;    
+    font-family: sans-serif;    
+    font-weight: normal;
+    font-size: 1em;
+    color: #3b3b3b;
+    text-align: center;
+}
+/* https://chiefofdesign.com.br/css-flexbox/ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=EAIaIQobChMI4JnEhN7C_gIVTxvUAR0LXgxbEAAYASAAEgIfovD_BwE*/
 
 
