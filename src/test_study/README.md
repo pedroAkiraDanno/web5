@@ -63,7 +63,7 @@ https://github.dev/pedroAkiraDanno/web5/blob/main/src/test_study/index.html
 3. <a href="https://html.com/" target="_blank">html</a> Explain: ---
 
 3. <a href="https://github.com/bradtraversy/50projects50days" target="_blank">50projects50days</a> Explain: ---
-4. <a href="https://pingback.com/gabcodes/jogos-para-praticar-e-aprender-css" target="_blank">gamestocss</a> Explain: games to learn css ---
+4. <a href="https://pingback.com/gabcodes/jogos-para-praticar-e-aprender-css" target="_blank">gamestocss</a> Explain: games to learn css 
 
 
 
