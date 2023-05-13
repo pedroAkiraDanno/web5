@@ -31,7 +31,10 @@ Cascading Style Sheets is a style sheet language used for describing the present
 
 |  #  | Project                                                                                                  | Live Demo                                                                                            |
 | :-: | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| 01  | [A_simple_Calculator](https://github.com/pedroAkiraDanno/web5/tree/main/src/test_study)                                 | [Live Demo](https://pedroakiradanno.github.io/web5/src/test_study/index.html)                           |
+| 01  | [A_simple_Calculator](https://github.com/pedroAkiraDanno/web5/tree/main/src/javascript/A-simple-Calculator)                                 | [Live Demo](https://github.com/pedroAkiraDanno/web5/tree/main/src/javascript/A-simple-Calculator/index.html)                           |
+
+
+
 
 
 github.dev -> VISUAL CODE
