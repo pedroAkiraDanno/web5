@@ -11,3 +11,6 @@
 - HTML
 - CSS [style/Presentation]
 - Javascript [Logic/Working of calculator]
+
+
+## Reference: https://github.com/abarna-codespot/A-simple-Calculator
