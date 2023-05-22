@@ -1,0 +1,813 @@
+
+/* ------- */
+
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th, td {
+  border: 1px solid;
+}
+
+
+/*
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+*/
+
+
+
+
+
+/* ------------------------------------- table v2 */
+
+.table-v2 {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-v2 thead tr {
+	background-color: #009879;
+	color: #ffffff;
+	text-align: left;
+}
+
+.table-v2 th,
+.table-v2 td {
+    padding: 12px 15px;
+}
+
+
+.table-v2 tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.table-v2 tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.table-v2 tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
+
+.table-v2 tbody tr.active-row {
+	font-weight: bold;
+	color: #009879;
+}
+
+
+
+
+
+/*https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l 
+<table class="styled-table"> */
+
+
+/*
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+*/
+
+/* https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l
+https://www.digitalocean.com/community/tutorials/how-to-style-a-table-with-css */
+
+
+
+
+/* ------- */
+
+/*
+table {
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+	padding: 15px;
+}
+table thead td {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #54585d;
+}
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+*/
+
+/*https://codeshack.io/html-styling-tables-example/
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************************************************************************************************************************************** */
+
+.div-talone{
+	background-color: #009879;
+	width: 100px;
+	height: 100px;
+	border: solid 1px;
+	margin-top: 10px;
+}
+
+
+.div_p{
+	background-color: aquamarine;
+	border: solid 1px;
+	margin-top: 10px;
+}
+
+
+
+.div_p2{
+	background-color: azure ;
+	border: solid 1px;
+	margin-top: 10px;
+}
+
+
+/* ************************************************************* CSS: Pseudo-Elements ***************************************************************************************************** */
+
+
+.pfirst_line::first-line {
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.first_line2::first-line {
+  color: blue;
+  text-transform: uppercase;
+
+  /* WARNING: DO NOT USE THESE */
+  /* Many properties are invalid in ::first-line pseudo-elements */
+  margin-left: 20px;
+  text-indent: 20px;
+}
+
+
+
+
+.tbefore::before{
+  content: "Read this -";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;	
+
+}
+
+.before2::before  {
+  content: "🍔";
+}
+
+
+
+.t1_after::after { 
+  content: " - Remember this";
+	background-color: aqua;
+}
+
+
+
+/*
+https://www.w3schools.com/cssref/sel_before.php
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_before_style
+https://www.w3schools.com/cssref/sel_before.php
+*/
+
+
+
+
+
+
+/********************************************************** CSS: Flexbox ***************************************************************************************************************/
+
+.span_color_red{
+	color: red;
+	display: block;
+}
+
+
+.box2_witout_flexbox{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+}
+
+.one2_witout_flexbox, .two2_witout_flexbox, .three2_witout_flexbox{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+}
+
+
+
+
+
+
+
+
+
+.box {
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+}
+
+.one, .two, .three{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+
+}
+
+
+
+
+
+.box2_space-between{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	justify-content:  space-between ;
+}
+
+.one2_space-between, .two2_space-between, .three2_space-between{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box2_space_around{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	justify-content:  space-around ;
+}
+
+.one2_space_around, .two2_space_around, .three2_space_around{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.box3_space_around{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	justify-content:  center ;
+}
+
+.one3_space_around, .two3_space_around, .three3_space_around{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box4_space_around{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	justify-content:  flex-end ;
+}
+
+.one4_space_around, .two4_space_around, .three4_space_around{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box1_flex_direction{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	flex-direction: row-reverse  ;
+}
+
+.one1_flex_direction, .two1_flex_direction, .three1_flex_direction{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+
+}
+
+
+
+
+
+
+
+
+
+.box2_flex_direction{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.one2_flex_direction, .two2_flex_direction, .three2_flex_direction{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box1_align_items{
+	background-color: aquamarine;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+
+	margin: 100px;
+
+	display: flex;
+	align-items: center ;
+}
+
+.one1_align_items, .two1_align_items, .three1_align_items{
+	background-color: bisque;
+	width: 80px;
+	height: 80px;
+	border: solid 1px black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex; /* ou inline-flex */
+    background-color: #cdf6eb;
+    margin: 20px auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+.container div {
+    background: #028082;     
+    margin: 8px 4px;
+    font-size: 1em;
+    color: #fff;
+}
+/* https://chiefofdesign.com.br/css-flexbox/ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************** CSS: Flexbox: flex-direction **************************************************************************************/
+
+
+.text_purple{
+	color: purple;
+}
+
+
+
+
+.container {
+    display: flex;
+    background-color: #cdf6eb;
+    margin: 10px auto 30px;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+.row {
+     flex-direction: row;
+}
+.row-reverse {
+     flex-direction: row-reverse;
+}
+.column {
+     flex-direction: column;
+}
+.column-reverse {
+     flex-direction: column-reverse;
+}
+.container div {
+    background: #028082; 
+    height: 80px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.row div, .row-reverse div {       
+    margin: 8px 4px;
+    width: 80px;
+}
+.column div, .column-reverse div {       
+    margin: 8px;
+}
+h4 {
+    margin: 20px 0 0 20px;    
+    font-family: sans-serif;    
+    font-weight: normal;
+    font-size: 1em;
+    color: #3b3b3b;
+    text-align: center;
+}
+/* https://chiefofdesign.com.br/css-flexbox/ */
+
+
+
+
+/*https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=EAIaIQobChMI4JnEhN7C_gIVTxvUAR0LXgxbEAAYASAAEgIfovD_BwE*/
+
+
+
+
+
+/********************************************************** CSS: Flexbox: flex-wrap **************************************************************************************/
+
+.container {
+    display: flex;
+    background-color: #cdf6eb;
+    margin: 10px auto 30px;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+.nowrap {
+     flex-wrap: nowrap;
+}
+.wrap {
+     flex-wrap: wrap;
+}
+.wrap-reverse {
+     flex-wrap: wrap-reverse;
+}
+.container div {
+    background: #028082;      
+    margin: 8px 4px;
+    width: 80px; 
+    height: 80px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    margin: 20px 0 0 20px;    
+    font-family: sans-serif;    
+    font-weight: normal;
+    font-size: 1em;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+
+
+
+/* https://chiefofdesign.com.br/css-flexbox/ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************** CSS: Flexbox: justify-content ************************************************************************************/
+
+
+
+.container {
+    display: flex;
+    background-color: #cdf6eb;
+    margin: 10px auto 30px;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+.flex-start {
+     justify-content: flex-start;
+}
+.flex-end {
+     justify-content: flex-end;
+}
+.center {
+     justify-content: center;
+}
+.space-between {
+     justify-content: space-between;
+}
+.space-around {
+     justify-content: space-around;
+}
+.space-evenly {
+     justify-content: space-evenly;
+}
+.container div {
+    background: #028082;     
+    margin: 8px 4px;
+    height: 80px;
+    width: 80px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    margin: 20px 0 0 20px;    
+    font-family: sans-serif;    
+    font-weight: normal;
+    font-size: 1em;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+
+
+
+
+/* https://chiefofdesign.com.br/css-flexbox/ */
+
+
+
+/******************************************************** CSS: Flexbox: align-items ************************************************************************************/
+
+
+
+
+
+
+.container {
+    display: flex;
+    background-color: #cdf6eb;
+    margin: 10px auto 30px;
+    max-width: 400px;
+    font-family: sans-serif;
+}
+.stretch {
+     align-items: stretch;
+}
+.flex-start {
+     align-items: flex-start;
+}
+.flex-end {
+     align-items: flex-end;
+}
+.center {
+     align-items: center;
+}
+.baseline {
+     align-items: baseline;
+}
+.container .fonte-1 {
+  font-size: 0.6em;
+}
+.container .fonte-2 {
+  font-size: 1.2em;
+}
+.container .fonte-3 {
+  font-size: 0.8em;
+}
+.container div {
+    background: #028082;     
+    margin: 8px 4px;
+    width: 80px;
+    font-size: 1em;
+    color: #fff;
+    flex: 1;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    margin: 20px 0 0 20px;    
+    font-family: sans-serif;    
+    font-weight: normal;
+    font-size: 1em;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+
+
+/* https://chiefofdesign.com.br/css-flexbox/ */
+
+
+
