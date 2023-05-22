@@ -563,8 +563,10 @@ https://www.w3schools.com/cssref/sel_before.php
 /********************************************************** CSS: Flexbox: flex-direction **************************************************************************************/
 
 
+/* reference font https://fonts.google.com/specimen/Roboto */
 .text_purple{
 	color: purple;
+  font-family: 'Roboto', sans-serif;
 }
 
 
