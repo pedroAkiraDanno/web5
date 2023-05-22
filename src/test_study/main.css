@@ -824,6 +824,14 @@ h4 {
   opacity: 0.5;
 }
 
+.opacity_img2 {
+ opacity: 0.2;
+}
+
+.opacity_img3 {
+  opacity: 1.0;
+}
+
 
 /* https://www.w3schools.com/css/css_image_transparency.asp  
    https://www.w3schools.com/css/tryit.asp?filename=trycss_image_opacity    */
